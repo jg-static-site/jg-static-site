@@ -21,38 +21,38 @@ title: Home | PhilPro Global
     }
 </style>
 
-<!-- HERO BANNER SECTION (Left-Aligned, Full-Width - Prime Inspired) -->
+<!-- HERO BANNER SECTION (Subtitle Highlighted) -->
 <section class="relative bg-cover bg-center bg-no-repeat py-28 sm:py-36 px-6 sm:px-12 lg:px-20 flex items-center min-h-[650px] bg-[#050B14] overflow-hidden" 
-         style="background-image: url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=1600&auto=format&fit=crop'); background-color: #050B14;">
+         style="background-image: url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=1600&auto=format&fit=crop');">
 
-    <!-- UPDATED: Brand-Aligned Deep Navy Overlay -->
-<div class="absolute inset-0 bg-gradient-to-r from-[#001a4d]/95 via-[#002b80]/85 to-transparent z-10"></div>
+    <!-- Deep Navy Overlay -->
+    <div class="absolute inset-0 bg-gradient-to-r from-[#001a4d]/95 via-[#002b80]/85 to-transparent z-10"></div>
 
-    <!-- Content Container (Entire block slides together smoothly, aligned left) -->
-    <div class="animate-hero-left relative max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-12 z-10">
+    <div class="animate-hero-left relative max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-12 z-20">
         
         <div class="lg:col-span-8 xl:col-span-7 text-left space-y-6">
-            <!-- Premium Subtitle Tag (Left Aligned) -->
-            <div class="flex items-center gap-3">
-                <span class="w-8 h-[2px]" style="background-color: #E53E3E;"></span>
-                <span class="text-sm sm:text-base font-black uppercase tracking-[0.15em]" style="color: #E53E3E !important;">
-                    Accounting & Tax Outsourcing
-                </span>
-            </div>
+            
+            <!-- HIGHLIGHTED SUBTITLE -->
 
-            <!-- Balanced Main Heading (Left Aligned) -->
-            <h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold leading-tight uppercase tracking-normal" 
-                style="color: #FFFFFF !important; text-shadow: 0px 2px 4px rgba(0,0,0,0.4);">
-                Reliable accounting, bookkeeping, and finance support for businesses worldwide.
+            <!-- RELAXED HIGHLIGHT STYLING -->
+            <div class="border-l-4 border-[#CC0000] pl-6 mb-6">
+                <p class="text-sm sm:text-base font-bold uppercase tracking-[0.25em] text-[#E5E7EB] opacity-90">
+                    Accounting & Tax Outsourcing. Powered by Filipino Professionals.
+                </p>
+            </div>
+            
+            <!-- Main Heading (Clean and Balanced) -->
+            <h1 class="text-3xl sm:text-4xl font-extrabold leading-tight uppercase tracking-tight text-white mb-6">
+                Reliable accounting, bookkeeping, tax compliance, and finance support for businesses worldwide.
             </h1>
 
-            <!-- Crisp Secondary Body Copy (Left Aligned) -->
-            <p class="text-base sm:text-lg leading-relaxed font-normal pt-1 max-w-2xl" 
-               style="color: #E5E7EB !important; text-shadow: 0px 1px 2px rgba(0,0,0,0.4);">
+            <!-- Body Copy -->
+            <p class="text-base sm:text-lg leading-relaxed font-normal pt-1 max-w-2xl text-[#E5E7EB]" 
+               style="text-shadow: 0px 1px 2px rgba(0,0,0,0.4);">
                 PhilPro is a Philippine-registered Business Process Outsourcing (BPO) company that helps accounting firms, SMEs, and growing businesses streamline their finance operations through experienced accounting professionals, secure processes, and scalable offshore solutions.
             </p>
 
-            <!-- Strong Action Buttons (Left Aligned) -->
+            <!-- Action Buttons -->
             <div class="flex flex-wrap gap-4 pt-4">
                 <a href="/contact" class="text-base font-bold uppercase tracking-wider px-10 py-4 rounded hover:bg-white hover:text-[#051329] transition-colors duration-300 shadow-lg min-w-[180px] text-center"
                    style="color: #FFFFFF !important; background-color: #CC0000 !important;">
@@ -249,7 +249,7 @@ title: Home | PhilPro Global
                 </div>
                 <!-- Forced blue via !text-[#003399] and forced hover via group-hover:!text-[#0066CC] -->
                 <h3 class="text-2xl font-black !text-[#1A1A1A] group-hover:!text-[#0066CC] uppercase tracking-wide transition-colors duration-300 flex items-center justify-between">
-                    Other Offshore
+                    Other Offshore Services
                     <span class="text-xl transform transition-transform duration-300 group-hover:translate-x-2"><i class="fas fa-arrow-right fa-solid"></i></span>
                 </h3>
             </div>
@@ -422,8 +422,8 @@ title: Home | PhilPro Global
                         <i class="fas fa-search"></i>
                     </div>
                     <div class="max-w-[200px] space-y-1">
-                        <span class="text-xs font-black tracking-widest text-[#00C1FF] uppercase block">01. Discovery</span>
-                        <p class="text-xs sm:text-sm text-gray-500 font-medium leading-relaxed">We learn about your business, workflows, and staffing requirements.</p>
+                        <span class="text-s font-black tracking-widest text-[#00C1FF] uppercase block">01. Discovery</span>
+                        <p class="text-s sm:text-sm text-gray-500 font-medium leading-relaxed">We learn about your business, workflows, and staffing requirements.</p>
                     </div>
                 </div>
 
@@ -432,8 +432,8 @@ title: Home | PhilPro Global
                         <i class="fas fa-user-check"></i>
                     </div>
                     <div class="max-w-[200px] space-y-1">
-                        <span class="text-xs font-black tracking-widest text-[#0066CC] uppercase block">02. Talent Matching</span>
-                        <p class="text-xs sm:text-sm text-gray-500 font-medium leading-relaxed">We identify professionals whose skills align with your needs.</p>
+                        <span class="text-s font-black tracking-widest text-[#0066CC] uppercase block">02. Talent Matching</span>
+                        <p class="text-s sm:text-sm text-gray-500 font-medium leading-relaxed">We identify professionals whose skills align with your needs.</p>
                     </div>
                 </div>
 
@@ -442,8 +442,8 @@ title: Home | PhilPro Global
                         <i class="fas fa-laptop-house"></i>
                     </div>
                     <div class="max-w-[200px] space-y-1">
-                        <span class="text-xs font-black tracking-widest text-[#0B2564] uppercase block">03. Onboarding</span>
-                        <p class="text-xs sm:text-sm text-gray-500 font-medium leading-relaxed">Your offshore team is integrated into your systems and processes.</p>
+                        <span class="text-s font-black tracking-widest text-[#0B2564] uppercase block">03. Onboarding</span>
+                        <p class="text-s sm:text-sm text-gray-500 font-medium leading-relaxed">Your offshore team is integrated into your systems and processes.</p>
                     </div>
                 </div>
 
@@ -452,8 +452,8 @@ title: Home | PhilPro Global
                         <i class="fas fa-chart-line"></i>
                     </div>
                     <div class="max-w-[200px] space-y-1">
-                        <span class="text-xs font-black tracking-widest text-[#00E5A3] uppercase block">04. Ongoing Support</span>
-                        <p class="text-xs sm:text-sm text-gray-500 font-medium leading-relaxed">We continuously monitor performance, provide administrative support, and help your team scale as your business grows.</p>
+                        <span class="text-s font-black tracking-widest text-[#00E5A3] uppercase block">04. Ongoing Support</span>
+                        <p class="text-s sm:text-sm text-gray-500 font-medium leading-relaxed">We continuously monitor performance, provide administrative support, and help your team scale as your business grows.</p>
                     </div>
                 </div>
 
@@ -463,16 +463,108 @@ title: Home | PhilPro Global
     </div>
 </section>
 
-<!-- TESTIMONIAL BLOCK (Muted Sky Tint Layout) -->
-<section class="bg-[#EDF4FF] py-20 px-8">
-    <div class="max-w-4xl mx-auto text-center" data-reveal="up">
-        <div class="text-[#1A1A1A]/40 text-5xl mb-6"><i class="fas fa-quote-left fa-solid"></i></div>
-        <blockquote class="text-3xl font-black text-[#1A1A1A] italic leading-relaxed mb-6">
-            "PhilPro quickly became an extension of our accounting team. Their professionalism, communication, and quality of work exceeded our expectations."
-        </blockquote>
-        <p class="text-xl font-black uppercase text-[#1A1A1A] tracking-wider">— Future Client Name</p>
+<!-- DRIVING RESULTS SECTION (Stable CDN Links) -->
+<section class="py-24 px-8 bg-white">
+    <div class="max-w-7xl mx-auto">
+
+        <!-- Header -->
+        <div class="text-center mb-16">
+            <h2 class="text-[#003399] text-xl font-black uppercase tracking-[0.3em] mb-4">Technology Expertise</h2>
+            <h3 class="text-4xl md:text-5xl font-black text-[#1A1A1A] uppercase tracking-tight">Driving Results with The Best Technology</h3>
+        </div>
+
+        <!-- Software Grid -->
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-8">
+            
+            <!-- NetSuite -->
+            <div class="flex flex-col items-center p-6 border border-gray-100 rounded-xl hover:shadow-lg transition-shadow">
+                <img src="https://cdn.worldvectorlogo.com/logos/netsuite.svg" alt="NetSuite" class="h-12 mb-6">
+                <p class="font-bold text-xs uppercase text-gray-500">NetSuite</p>
+            </div>
+
+            <!-- Xero -->
+            <div class="flex flex-col items-center p-6 border border-gray-100 rounded-xl hover:shadow-lg transition-shadow">
+                <img src="https://cdn.worldvectorlogo.com/logos/xero-2.svg" alt="Xero" class="h-12 mb-6">
+                <p class="font-bold text-xs uppercase text-gray-500">Xero</p>
+            </div>
+
+            <!-- Zoho Books -->
+            <div class="flex flex-col items-center p-6 border border-gray-100 rounded-xl hover:shadow-lg transition-shadow">
+                <img src="https://cdn.worldvectorlogo.com/logos/zoho-books.svg" alt="Zoho Books" class="h-12 mb-6">
+                <p class="font-bold text-xs uppercase text-gray-500">Zoho Books</p>
+            </div>
+
+            <!-- QuickBooks -->
+            <div class="flex flex-col items-center p-6 border border-gray-100 rounded-xl hover:shadow-lg transition-shadow">
+                <img src="https://cdn.worldvectorlogo.com/logos/quickbooks.svg" alt="QuickBooks" class="h-12 mb-6">
+                <p class="font-bold text-xs uppercase text-gray-500">QuickBooks</p>
+            </div>
+
+            <!-- Dynamics 365 -->
+            <div class="flex flex-col items-center p-6 border border-gray-100 rounded-xl hover:shadow-lg transition-shadow">
+                <img src="https://cdn.worldvectorlogo.com/logos/microsoft-dynamics-365.svg" alt="Dynamics 365" class="h-12 mb-6">
+                <p class="font-bold text-xs uppercase text-gray-500">Dynamics 365</p>
+            </div>
+
+        </div>
     </div>
 </section>
+
+<!-- TESTIMONIALS SECTION (EspacioMNL Style with Placeholder Faces) -->
+<section class="py-24 px-8 bg-[#EDF4FF] overflow-hidden">
+    <div class="max-w-4xl mx-auto text-center relative">
+
+        <h2 class="text-[#003399] text-xl font-bold uppercase tracking-[0.3em] mb-12">Testimonials</h2>
+
+        <!-- Review Slides Container -->
+        <div id="testimonial-container" class="relative min-h-[350px]">
+            
+            <!-- Slide 1 -->
+            <div class="testimonial-slide active transition-opacity duration-700 opacity-100 absolute inset-0">
+                <!-- Placeholder Avatar -->
+                <div class="w-20 h-20 bg-gray-200 rounded-full mx-auto mb-8 flex items-center justify-center">
+                    <i class="fas fa-user text-gray-400 text-3xl"></i>
+                </div>
+                <p class="text-3xl md:text-4xl font-light text-[#1A1A1A] italic leading-tight mb-8">
+                    "PhilPro quickly became an extension of our accounting team. Their professionalism, communication, and quality of work exceeded our expectations."
+                </p>
+                <p class="font-bold uppercase tracking-widest text-sm">— CFO, Global Tech Firm</p>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="testimonial-slide transition-opacity duration-700 opacity-0 absolute inset-0">
+                <!-- Placeholder Avatar -->
+                <div class="w-20 h-20 bg-gray-200 rounded-full mx-auto mb-8 flex items-center justify-center">
+                    <i class="fas fa-user text-gray-400 text-3xl"></i>
+                </div>
+                <p class="text-3xl md:text-4xl font-light text-[#1A1A1A] italic leading-tight mb-8">
+                    "Transitioning our finance operations to their team was the best decision we made. Efficient, secure, and incredibly reliable."
+                </p>
+                <p class="font-bold uppercase tracking-widest text-sm">— Director, Accounting Firm</p>
+            </div>
+
+        </div>
+
+        <!-- Navigation Dots -->
+        <div class="flex justify-center gap-3 mt-12">
+            <button onclick="showSlide(0)" class="w-3 h-3 rounded-full bg-[#003399] transition-colors"></button>
+            <button onclick="showSlide(1)" class="w-3 h-3 rounded-full bg-gray-300 transition-colors"></button>
+        </div>
+    </div>
+</section>
+
+<script>
+    function showSlide(index) {
+        const slides = document.querySelectorAll('.testimonial-slide');
+        const dots = document.querySelectorAll('button[onclick^="showSlide"]');
+        
+        slides.forEach((slide, i) => {
+            slide.style.opacity = (i === index) ? '1' : '0';
+            slide.style.zIndex = (i === index) ? '10' : '0';
+            dots[i].style.backgroundColor = (i === index) ? '#003399' : '#D1D5DB';
+        });
+    }
+</script>
 
 <!-- FINAL CALL TO ACTION (CTA) (Hero Banner Matching Visual Design) -->
 <section class="relative bg-cover bg-center bg-no-repeat py-24 px-6 sm:px-12 lg:px-20 flex items-center bg-[#050B14] overflow-hidden" 
