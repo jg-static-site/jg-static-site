@@ -1,0 +1,154 @@
+warning: LF will be replaced by CRLF in index.md.
+The file will have its original line endings in your working directory
+[1mdiff --git a/index.md b/index.md[m
+[1mindex c898333..9039d26 100644[m
+[1m--- a/index.md[m
+[1m+++ b/index.md[m
+[36m@@ -377,99 +377,80 @@[m [mtitle: Home | PhilPro Global[m
+     <div class="max-w-7xl mx-auto text-center">[m
+ [m
+         <!-- Section Title Heading -->[m
+[31m-        <h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight mb-16">[m
+[31m-            <span class="text-[#002B49]">The Process</span> [m
+[31m-            <span class="text-[#00E5A3]">Behind Our Success</span>[m
+[32m+[m[32m        <h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight mb-20 uppercase text-[#002B49]">[m
+[32m+[m[32m            Our Process[m
+         </h2>[m
+ [m
+         <!-- Process Multi-Step Wrapper -->[m
+[31m-        <div class="relative min-h-[450px]">[m
+[32m+[m[32m        <div class="relative min-h-[400px]">[m
+             [m
+[31m-            <!-- Exact Winding Wave Vector Background (Visible only on Desktop for layout integrity) -->[m
+[31m-            <div class="hidden lg:block absolute top-[68px] left-[8%] right-[8%] h-[120px] pointer-events-none z-0">[m
+[31m-                <svg viewBox="0 0 1000 120" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-full h-full preserve-3d">[m
+[31m-                    <path d="M 0 45 C 110 -45, 140 145, 250 55 C 360 -35, 390 145, 500 55 C 610 -35, 640 145, 750 55 C 860 -35, 890 145, 1000 45" [m
+[31m-                          stroke="url(#wave-gradient)" [m
+[31m-                          stroke-width="38" [m
+[31m-                          stroke-linecap="round" [m
+[31m-                          stroke-linejoin="round"/>[m
+[31m-                    <defs>[m
+[31m-                        <linearGradient id="wave-gradient" x1="0%" y1="0%" x2="100%" y2="0%">[m
+[31m-                            <stop offset="0%" stop-color="#00C1FF"/>[m
+[31m-                            <stop offset="25%" stop-color="#0066CC"/>[m
+[31m-                            <stop offset="50%" stop-color="#0B2564"/>[m
+[31m-                            <stop offset="75%" stop-color="#14465A"/>[m
+[31m-                            <stop offset="100%" stop-color="#00E5A3"/>[m
+[31m-                        </linearGradient>[m
+[31m-                    </defs>[m
+[32m+[m[32m            <!-- Connecting Wave Vector Line (Visible on Desktop) -->[m
+[32m+[m[32m            <div class="hidden lg:block absolute top-[64px] left-[12%] right-[12%] h-[60px] pointer-events-none z-0">[m
+[32m+[m[32m                <svg viewBox="0 0 800 60" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-full h-full">[m
+[32m+[m[32m                    <path d="M 0 30 C 130 -10, 130 70, 266 30 C 400 -10, 400 70, 533 30 C 670 -10, 670 70, 800 30"[m[41m [m
+[32m+[m[32m                          stroke="#003399"[m[41m [m
+[32m+[m[32m                          stroke-width="4"[m[41m [m
+[32m+[m[32m                          stroke-dasharray="8 8"[m
+[32m+[m[32m                          stroke-linecap="round"/>[m
+                 </svg>[m
+             </div>[m
+ [m
+             <!-- Steps Grid Interface -->[m
+[31m-            <div class="grid grid-cols-1 lg:grid-cols-5 gap-12 lg:gap-4 relative z-10">[m
+[32m+[m[32m            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-6 relative z-10">[m
+                 [m
+[31m-                <!-- Step 1: Connect with Us -->[m
+[32m+[m[32m                <!-- Step 1: Discovery -->[m
+                 <div class="flex flex-col items-center text-center space-y-5 group">[m
+[31m-                    <!-- 3D Shaded Sphere Node -->[m
+[31m-                    <div class="w-32 h-32 rounded-full bg-white flex items-center justify-center text-3xl text-[#1E1B4B] shadow-[inset_-10px_-10px_25px_rgba(0,0,0,0.08),0_15px_30px_rgba(0,0,0,0.12)] transition-transform duration-300 group-hover:scale-105">[m
+[31m-                        <i class="far fa-comments"></i>[m
+[32m+[m[32m                    <!-- Shaded Sphere Node -->[m
+[32m+[m[32m                    <div class="w-32 h-32 rounded-full bg-white flex items-center justify-center text-3xl text-[#003399] shadow-[inset_-10px_-10px_25px_rgba(0,0,0,0.04),0_15px_30px_rgba(0,0,0,0.08)] border border-gray-100 transition-transform duration-300 group-hover:scale-105">[m
+[32m+[m[32m                        <i class="fas fa-search"></i>[m
+                     </div>[m
+[31m-                    <!-- Descriptive Metadata Box -->[m
+[31m-                    <div class="max-w-[200px] space-y-2">[m
+[31m-                        <h3 class="text-base font-extrabold text-[#002B49] tracking-tight leading-snug">Connect with Us</h3>[m
+[31m-                        <p class="text-xs sm:text-sm text-gray-500 font-medium leading-relaxed">Understanding your accounting challenges and requirements.</p>[m
+[32m+[m[32m                    <!-- Descriptive Text Box -->[m
+[32m+[m[32m                    <div class="max-w-[240px] space-y-2">[m
+[32m+[m[32m                        <span class="text-xs font-bold text-[#CC0000] tracking-widest uppercase block">Step 01</span>[m
+[32m+[m[32m                        <h3 class="text-lg font-bold text-[#002B49] uppercase tracking-wide">Discovery</h3>[m
+[32m+[m[32m                        <p class="text-sm text-gray-500 font-normal leading-relaxed">We learn about your business, workflows, and staffing requirements.</p>[m
+                     </div>[m
+                 </div>[m
+ [m
+[31m-                <!-- Step 2: Understand Deliverables -->[m
+[32m+[m[32m                <!-- Step 2: Talent Matching -->[m
+                 <div class="flex flex-col items-center text-center space-y-5 group lg:pt-6">[m
+[31m-                    <!-- 3D Shaded Sphere Node -->[m
+[31m-                    <div class="w-32 h-32 rounded-full bg-white flex items-center justify-center text-3xl text-[#1E1B4B] shadow-[inset_-10px_-10px_25px_rgba(0,0,0,0.08),0_15px_30px_rgba(0,0,0,0.12)] transition-transform duration-300 group-hover:scale-105">[m
+[31m-                        <i class="far fa-clipboard"></i>[m
+[32m+[m[32m                    <!-- Shaded Sphere Node -->[m
+[32m+[m[32m                    <div class="w-32 h-32 rounded-full bg-white flex items-center justify-center text-3xl text-[#003399] shadow-[inset_-10px_-10px_25px_rgba(0,0,0,0.04),0_15px_30px_rgba(0,0,0,0.08)] border border-gray-100 transition-transform duration-300 group-hover:scale-105">[m
+[32m+[m[32m                        <i class="fas fa-user-check"></i>[m
+                     </div>[m
+[31m-                    <!-- Descriptive Metadata Box -->[m
+[31m-                    <div class="max-w-[200px] space-y-2">[m
+[31m-                        <h3 class="text-base font-extrabold text-[#002B49] tracking-tight leading-snug">Understand Deliverables</h3>[m
+[31m-                        <p class="text-xs sm:text-sm text-gray-500 font-medium leading-relaxed">Comprehending your expectations and setting specific deliverables.</p>[m
+[32m+[m[32m                    <!-- Descriptive Text Box -->[m
+[32m+[m[32m                    <div class="max-w-[240px] space-y-2">[m
+[32m+[m[32m                        <span class="text-xs font-bold text-[#CC0000] tracking-widest uppercase block">Step 02</span>[m
+[32m+[m[32m                        <h3 class="text-lg font-bold text-[#002B49] uppercase tracking-wide">Talent Matching</h3>[m
+[32m+[m[32m                        <p class="text-sm text-gray-500 font-normal leading-relaxed">We identify professionals whose skills align with your needs.</p>[m
+                     </div>[m
+                 </div>[m
+ [m
+[31m-                <!-- Step 3: Pricing -->[m
+[32m+[m[32m                <!-- Step 3: Onboarding -->[m
+                 <div class="flex flex-col items-center text-center space-y-5 group">[m
+[31m-                    <!-- 3D Shaded Sphere Node -->[m
+[31m-                    <div class="w-32 h-32 rounded-full bg-white flex items-center justify-center text-3xl text-[#1E1B4B] shadow-[inset_-10px_-10px_25px_rgba(0,0,0,0.08),0_15px_30px_rgba(0,0,0,0.12)] transition-transform duration-300 group-hover:scale-105">[m
+[31m-                        <i class="fas fa-sync-alt"></i>[m
+[32m+[m[32m                    <!-- Shaded Sphere Node -->[m
+[32m+[m[32m                    <div class="w-32 h-32 rounded-full bg-white flex items-center justify-center text-3xl text-[#003399] shadow-[inset_-10px_-10px_25px_rgba(0,0,0,0.04),0_15px_30px_rgba(0,0,0,0.08)] border border-gray-100 transition-transform duration-300 group-hover:scale-105">[m
+[32m+[m[32m                        <i class="fas fa-laptop-house"></i>[m
+                     </div>[m
+[31m-                    <!-- Descriptive Metadata Box -->[m
+[31m-                    <div class="max-w-[200px] space-y-2">[m
+[31m-                        <h3 class="text-base font-extrabold text-[#002B49] tracking-tight leading-snug">Pricing</h3>[m
+[31m-                        <p class="text-xs sm:text-sm text-gray-500 font-medium leading-relaxed">We propose a fixed pricing plan based on your exact requirements.</p>[m
+[32m+[m[32m                    <!-- Descriptive Text Box -->[m
+[32m+[m[32m                    <div class="max-w-[240px] space-y-2">[m
+[32m+[m[32m                        <span class="text-xs font-bold text-[#CC0000] tracking-widest uppercase block">Step 03</span>[m
+[32m+[m[32m                        <h3 class="text-lg font-bold text-[#002B49] uppercase tracking-wide">Onboarding</h3>[m
+[32m+[m[32m                        <p class="text-sm text-gray-500 font-normal leading-relaxed">Your offshore team is integrated into your systems and processes.</p>[m
+                     </div>[m
+                 </div>[m
+ [m
+[31m-                <!-- Step 4: Plan of Action -->[m
+[32m+[m[32m                <!-- Step 4: Ongoing Support -->[m
+                 <div class="flex flex-col items-center text-center space-y-5 group lg:pt-6">[m
+[31m-                    <!-- 3D Shaded Sphere Node -->[m
+[31m-                    <div class="w-32 h-32 rounded-full bg-white flex items-center justify-center text-3xl text-[#1E1B4B] shadow-[inset_-10px_-10px_25px_rgba(0,0,0,0.08),0_15px_30px_rgba(0,0,0,0.12)] transition-transform duration-300 group-hover:scale-105">[m
+[31m-                        <i class="far fa-file-alt"></i>[m
+[32m+[m[32m                    <!-- Shaded Sphere Node -->[m
+[32m+[m[32m                    <div class="w-32 h-32 rounded-full bg-white flex items-center justify-center text-3xl text-[#003399] shadow-[inset_-10px_-10px_25px_rgba(0,0,0,0.04),0_15px_30px_rgba(0,0,0,0.08)] border border-gray-100 transition-transform duration-300 group-hover:scale-105">[m
+[32m+[m[32m                        <i class="fas fa-chart-line"></i>[m
+                     </div>[m
+[31m-                    <!-- Descriptive Metadata Box -->[m
+[31m-                    <div class="max-w-[200px] space-y-2">[m
+[31m-                        <h3 class="text-base font-extrabold text-[#002B49] tracking-tight leading-snug">Plan of Action</h3>[m
+[31m-                        <p class="text-xs sm:text-sm text-gray-500 font-medium leading-relaxed">Connect with our accountant to create customized plans and bring effective solutions.</p>[m
+[31m-                    </div>[m
+[31m-                </div>[m
+[31m-[m
+[31m-                <!-- Step 5: Kick Off -->[m
+[31m-                <div class="flex flex-col items-center text-center space-y-5 group">[m
+[31m-                    <!-- 3D Shaded Sphere Node -->[m
+[31m-                    <div class="w-32 h-32 rounded-full bg-white flex items-center justify-center text-3xl text-[#1E1B4B] shadow-[inset_-10px_-10px_25px_rgba(0,0,0,0.08),0_15px_30px_rgba(0,0,0,0.12)] transition-transform duration-300 group-hover:scale-105">[m
+[31m-                        <i class="fas fa-cog"></i>[m
+[31m-                    </div>[m
+[31m-                    <!-- Descriptive Metadata Box -->[m
+[31m-                    <div class="max-w-[200px] space-y-2">[m
+[31m-                        <h3 class="text-base font-extrabold text-[#002B49] tracking-tight leading-snug">Kick Off</h3>[m
+[31m-                        <p class="text-xs sm:text-sm text-gray-500 font-medium leading-relaxed">Once approved, it's time to put the plan into action.</p>[m
+[32m+[m[32m                    <!-- Descriptive Text Box -->[m
+[32m+[m[32m                    <div class="max-w-[240px] space-y-2">[m
+[32m+[m[32m                        <span class="text-xs font-bold text-[#CC0000] tracking-widest uppercase block">Step 04</span>[m
+[32m+[m[32m                        <h3 class="text-lg font-bold text-[#002B49] uppercase tracking-wide">Ongoing Support</h3>[m
+[32m+[m[32m                        <p class="text-sm text-gray-500 font-normal leading-relaxed">We continuously monitor performance, provide administrative support, and help your team scale as your business grows.</p>[m
+                     </div>[m
+                 </div>[m
+ [m
