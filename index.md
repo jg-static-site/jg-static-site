@@ -346,7 +346,7 @@ title: Home | PhilPro Global
     <!-- Content -->
     <div class="relative z-10 max-w-4xl mx-auto space-y-8">
         <div class="space-y-3" data-reveal="up">
-            <span class="text-[#003399] text-xl font-bold uppercase tracking-widest block">
+            <span class="text-[#CC0000] text-xl font-bold uppercase tracking-widest block">
                 <i class="fas fa-globe-asia fa-solid mr-2"></i> Strategic Advantage
             </span>
             <h2 class="text-[#003399] text-5xl font-black uppercase leading-tight">
@@ -383,11 +383,10 @@ title: Home | PhilPro Global
     </style>
 
     <div class="max-w-7xl mx-auto text-center">
-
-        <h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight mb-20">
-            <span class="text-[#002B49]">Our</span> 
-            <span class="text-[#00E5A3]">Process</span>
-        </h2>
+            <h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight mb-20">
+                <span class="text-[#CC0000]">Our</span> 
+                <span class="text-[#003399]">Process</span>
+            </h2>
 
         <div class="relative">
             
@@ -416,94 +415,97 @@ title: Home | PhilPro Global
             </div>
 
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-0 relative z-10">
-                
+
+                <!-- 01. Discovery (Red) -->
                 <div class="flex flex-col items-center text-center space-y-5 group">
                     <div class="w-32 h-32 rounded-full bg-white flex items-center justify-center text-3xl text-[#1E1B4B] shadow-[inset_-12px_-12px_25px_rgba(0,0,0,0.12),0_20px_40px_rgba(0,0,0,0.18)] border border-gray-100/50 transition-transform duration-300 group-hover:scale-105">
                         <i class="fas fa-search"></i>
                     </div>
                     <div class="max-w-[200px] space-y-1">
-                        <span class="text-s font-black tracking-widest text-[#00C1FF] uppercase block">01. Discovery</span>
-                        <p class="text-s sm:text-sm text-gray-500 font-medium leading-relaxed">We learn about your business, workflows, and staffing requirements.</p>
+                        <span class="text-s font-black tracking-widest text-[#CC0000] uppercase block">01. Discovery</span>
+                        <p class="text-xl text-[#333333] leading-relaxed font-normal">We learn about your business, workflows, and staffing requirements.</p>
                     </div>
                 </div>
 
+                <!-- 02. Talent Matching (Blue) -->
                 <div class="flex flex-col items-center text-center space-y-5 group lg:pt-16">
                     <div class="w-32 h-32 rounded-full bg-white flex items-center justify-center text-3xl text-[#1E1B4B] shadow-[inset_-12px_-12px_25px_rgba(0,0,0,0.12),0_20px_40px_rgba(0,0,0,0.18)] border border-gray-100/50 transition-transform duration-300 group-hover:scale-105">
                         <i class="fas fa-user-check"></i>
                     </div>
                     <div class="max-w-[200px] space-y-1">
-                        <span class="text-s font-black tracking-widest text-[#0066CC] uppercase block">02. Talent Matching</span>
-                        <p class="text-s sm:text-sm text-gray-500 font-medium leading-relaxed">We identify professionals whose skills align with your needs.</p>
+                        <span class="text-s font-black tracking-widest text-[#003399] uppercase block">02. Talent Matching</span>
+                        <p class="text-xl text-[#333333] leading-relaxed font-normal">We identify professionals whose skills align with your needs.</p>
                     </div>
                 </div>
 
+                <!-- 03. Onboarding (Red) -->
                 <div class="flex flex-col items-center text-center space-y-5 group">
                     <div class="w-32 h-32 rounded-full bg-white flex items-center justify-center text-3xl text-[#1E1B4B] shadow-[inset_-12px_-12px_25px_rgba(0,0,0,0.12),0_20px_40px_rgba(0,0,0,0.18)] border border-gray-100/50 transition-transform duration-300 group-hover:scale-105">
                         <i class="fas fa-laptop-house"></i>
                     </div>
                     <div class="max-w-[200px] space-y-1">
-                        <span class="text-s font-black tracking-widest text-[#0B2564] uppercase block">03. Onboarding</span>
-                        <p class="text-s sm:text-sm text-gray-500 font-medium leading-relaxed">Your offshore team is integrated into your systems and processes.</p>
+                        <span class="text-s font-black tracking-widest text-[#CC0000] uppercase block">03. Onboarding</span>
+                        <p class="text-xl text-[#333333] leading-relaxed font-normal">Your offshore team is integrated into your systems and processes.</p>
                     </div>
                 </div>
 
+                <!-- 04. Ongoing Support (Blue) -->
                 <div class="flex flex-col items-center text-center space-y-5 group lg:pt-16">
                     <div class="w-32 h-32 rounded-full bg-white flex items-center justify-center text-3xl text-[#1E1B4B] shadow-[inset_-12px_-12px_25px_rgba(0,0,0,0.12),0_20px_40px_rgba(0,0,0,0.18)] border border-gray-100/50 transition-transform duration-300 group-hover:scale-105">
                         <i class="fas fa-chart-line"></i>
                     </div>
                     <div class="max-w-[200px] space-y-1">
-                        <span class="text-s font-black tracking-widest text-[#00E5A3] uppercase block">04. Ongoing Support</span>
-                        <p class="text-s sm:text-sm text-gray-500 font-medium leading-relaxed">We continuously monitor performance, provide administrative support, and help your team scale as your business grows.</p>
+                        <span class="text-s font-black tracking-widest text-[#003399] uppercase block">04. Ongoing Support</span>
+                        <p class="text-xl text-[#333333] leading-relaxed font-normal">We continuously monitor performance, provide administrative support, and help your team scale as your business grows.</p>
                     </div>
                 </div>
 
             </div>
         </div>
-
     </div>
 </section>
 
-<!-- DRIVING RESULTS SECTION (Stable CDN Links) -->
+<!-- TECHNOLOGY EXPERTISE SECTION -->
 <section class="py-24 px-8 bg-white">
     <div class="max-w-7xl mx-auto">
 
         <!-- Header -->
         <div class="text-center mb-16">
-            <h2 class="text-[#003399] text-xl font-black uppercase tracking-[0.3em] mb-4">Technology Expertise</h2>
+            <h2 class="text-[#CC0000] text-sm font-black uppercase tracking-[0.3em] mb-4">Technology Expertise</h2>
             <h3 class="text-4xl md:text-5xl font-black text-[#1A1A1A] uppercase tracking-tight">Driving Results with The Best Technology</h3>
         </div>
 
         <!-- Software Grid -->
         <div class="grid grid-cols-2 md:grid-cols-5 gap-8">
             
-            <!-- NetSuite -->
-            <div class="flex flex-col items-center p-6 border border-gray-100 rounded-xl hover:shadow-lg transition-shadow">
-                <img src="https://cdn.worldvectorlogo.com/logos/netsuite.svg" alt="NetSuite" class="h-12 mb-6">
-                <p class="font-bold text-xs uppercase text-gray-500">NetSuite</p>
+            <!-- NetSuite (Red) -->
+            <div class="flex flex-col items-center p-8 border border-gray-100 rounded-xl hover:shadow-lg transition-shadow">
+                <img src="https://cdn.worldvectorlogo.com/logos/netsuite.svg" alt="NetSuite" class="h-16 mb-6">
+                <p class="font-black text-lg uppercase text-[#CC0000]">NetSuite</p>
             </div>
 
-            <!-- Xero -->
-            <div class="flex flex-col items-center p-6 border border-gray-100 rounded-xl hover:shadow-lg transition-shadow">
-                <img src="https://cdn.worldvectorlogo.com/logos/xero-2.svg" alt="Xero" class="h-12 mb-6">
-                <p class="font-bold text-xs uppercase text-gray-500">Xero</p>
+            <!-- Xero (Blue) -->
+            <div class="flex flex-col items-center p-8 border border-gray-100 rounded-xl hover:shadow-lg transition-shadow">
+                <img src="https://cdn.worldvectorlogo.com/logos/xero-2.svg" alt="Xero" class="h-16 mb-6">
+                <p class="font-black text-lg uppercase text-[#003399]">Xero</p>
             </div>
 
-            <!-- Zoho Books -->
-            <div class="flex flex-col items-center p-6 border border-gray-100 rounded-xl hover:shadow-lg transition-shadow">
-                <img src="https://cdn.worldvectorlogo.com/logos/zoho-books.svg" alt="Zoho Books" class="h-12 mb-6">
-                <p class="font-bold text-xs uppercase text-gray-500">Zoho Books</p>
+            <!-- Zoho Books (Red) -->
+            <div class="flex flex-col items-center p-8 border border-gray-100 rounded-xl hover:shadow-lg transition-shadow">
+                <img src="https://cdn.worldvectorlogo.com/logos/zoho-books.svg" alt="Zoho Books" class="h-16 mb-6">
+                <p class="font-black text-lg uppercase text-[#CC0000]">Zoho Books</p>
             </div>
 
-            <!-- QuickBooks -->
-            <div class="flex flex-col items-center p-6 border border-gray-100 rounded-xl hover:shadow-lg transition-shadow">
-                <img src="https://cdn.worldvectorlogo.com/logos/quickbooks.svg" alt="QuickBooks" class="h-12 mb-6">
-                <p class="font-bold text-xs uppercase text-gray-500">QuickBooks</p>
+            <!-- QuickBooks (Blue) -->
+            <div class="flex flex-col items-center p-8 border border-gray-100 rounded-xl hover:shadow-lg transition-shadow">
+                <img src="https://cdn.worldvectorlogo.com/logos/quickbooks.svg" alt="QuickBooks" class="h-16 mb-6">
+                <p class="font-black text-lg uppercase text-[#003399]">QuickBooks</p>
             </div>
 
-            <!-- Dynamics 365 -->
-            <div class="flex flex-col items-center p-6 border border-gray-100 rounded-xl hover:shadow-lg transition-shadow">
-                <img src="https://cdn.worldvectorlogo.com/logos/microsoft-dynamics-365.svg" alt="Dynamics 365" class="h-12 mb-6">
-                <p class="font-bold text-xs uppercase text-gray-500">Dynamics 365</p>
+            <!-- Dynamics 365 (Red) -->
+            <div class="flex flex-col items-center p-8 border border-gray-100 rounded-xl hover:shadow-lg transition-shadow">
+                <img src="https://cdn.worldvectorlogo.com/logos/microsoft-dynamics-365.svg" alt="Dynamics 365" class="h-16 mb-6">
+                <p class="font-black text-lg uppercase text-[#CC0000]">Dynamics 365</p>
             </div>
 
         </div>
@@ -597,3 +599,20 @@ title: Home | PhilPro Global
         
     </div>
 </section>
+
+<script>
+    let currentSlide = 0;
+    const slides = document.querySelectorAll('.testimonial-slide');
+    
+    function showSlides() {
+        slides.forEach(slide => slide.classList.remove('active', 'opacity-100'));
+        slides.forEach(slide => slide.classList.add('opacity-0'));
+        
+        currentSlide = (currentSlide + 1) % slides.length;
+        
+        slides[currentSlide].classList.add('active', 'opacity-100');
+        slides[currentSlide].classList.remove('opacity-0');
+    }
+    
+    setInterval(showSlides, 5000); // Cycles every 5 seconds
+</script>
