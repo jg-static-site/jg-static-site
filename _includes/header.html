@@ -50,14 +50,33 @@
         </div>
 
         <!-- Links Container -->
-        <div class="flex flex-wrap justify-center items-center gap-x-2 gap-y-3 text-center">
-            <a href="{{ '/' | relative_url }}" class="senior-nav-link text-[#003399] hover:text-[#CC0000]">Home</a>
-            <a href="{{ '/about' | relative_url }}" class="senior-nav-link text-[#003399] hover:text-[#CC0000]">About Us</a>
-            <a href="/services" class="senior-nav-link text-[#003399] hover:text-[#CC0000]">Services</a>
-            <a href="/FAQ" class="senior-nav-link text-[#003399] hover:text-[#CC0000]">FAQ</a>
+        <div class="flex flex-wrap justify-center items-center gap-x-1 gap-y-2 text-center">
+            <a href="{{ '/' | relative_url }}" class="senior-nav-link text-[#003399] hover:text-[#CC0000] px-3">Home</a>
+            <a href="{{ '/about' | relative_url }}" class="senior-nav-link text-[#003399] hover:text-[#CC0000] px-3">About Us</a>
 
-            <!-- Contact CTA Button -->
-            <a href="/contact" class="lg:ml-4 bg-[#003399] text-[#FDFBF7] text-xl font-bold uppercase px-8 py-4 rounded-md hover:bg-[#CC0000] transition-colors duration-200 block shadow-md no-underline">
+            <!-- Services Dropdown -->
+            <div class="relative group">
+                <a href="/services" class="senior-nav-link text-[#003399] group-hover:text-[#CC0000] flex items-center gap-1 px-3">
+                    Services <i class="fas fa-chevron-down text-sm"></i>
+                </a>
+                <!-- Dropdown Menu -->
+                <div class="absolute left-0 top-full w-72 bg-white border border-gray-200 shadow-xl rounded-b-lg hidden group-hover:block z-[60]">
+                    <a href="/accounting-services" class="block px-6 py-3 text-lg font-bold text-[#003399] hover:bg-gray-50 hover:text-[#CC0000]">Accounting Services</a>
+                    <a href="/bookkeeping-services" class="block px-6 py-3 text-lg font-bold text-[#003399] hover:bg-gray-50 hover:text-[#CC0000]">Bookkeeping Services</a>
+                    <a href="/tax-preparation-services" class="block px-6 py-3 text-lg font-bold text-[#003399] hover:bg-gray-50 hover:text-[#CC0000]">Tax Preparation Services</a>
+                    <a href="/payroll-processing-services" class="block px-6 py-3 text-lg font-bold text-[#003399] hover:bg-gray-50 hover:text-[#CC0000]">Payroll Processing Services</a>
+                    <a href="/invoice-processing-services" class="block px-6 py-3 text-lg font-bold text-[#003399] hover:bg-gray-50 hover:text-[#CC0000]">Invoice Processing Services</a>
+                    <a href="/accounts-receivable-services" class="block px-6 py-3 text-lg font-bold text-[#003399] hover:bg-gray-50 hover:text-[#CC0000]">Accounts Receivable Services</a>
+                    <a href="/accounts-payable-services" class="block px-6 py-3 text-lg font-bold text-[#003399] hover:bg-gray-50 hover:text-[#CC0000]">Accounts Payable Services</a>
+                    <a href="/financial-services" class="block px-6 py-3 text-lg font-bold text-[#003399] hover:bg-gray-50 hover:text-[#CC0000]">Financial Services</a>
+                    <a href="/audit-services-for-cpas" class="block px-6 py-3 text-lg font-bold text-[#003399] hover:bg-gray-50 hover:text-[#CC0000]">Audit Services for CPAs</a>
+                </div>
+            </div>
+
+            <a href="/FAQ" class="senior-nav-link text-[#003399] hover:text-[#CC0000] px-3">FAQ</a>
+
+            <!-- Contact CTA Button: Reduced margin-left and padding slightly to fit -->
+            <a href="/contact" class="lg:ml-2 bg-[#003399] text-[#FDFBF7] text-xl font-bold uppercase px-6 py-3 rounded-md hover:bg-[#CC0000] transition-colors duration-200 block shadow-md no-underline">
                 Contact Us
             </a>
         </div>
