@@ -463,56 +463,57 @@ title: Home | PhilPro Global
             </div>
         </div>
     </div>
-</section>8
-topic
-<!-- TECHNOLOGY EXPERTISE SECTION -->
+</section>
+<!-- Add these to your <head> or at the very top of your file -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
 <section class="py-24 px-8 bg-white">
     <div class="max-w-7xl mx-auto">
-
         <!-- Header -->
         <div class="text-center mb-16">
-            <h2 class="text-[#CC0000] text-sm font-black uppercase tracking-[0.3em] mb-4">Technology Expertise</h2>
-            <h3 class="text-4xl md:text-5xl font-black text-[#1A1A1A] uppercase tracking-tight">Driving Results with The Best Technology</h3>
+            <h2 class="text-3xl md:text-5xl font-black text-[#1A1A1A] uppercase mb-4">Technology Expertise</h2>
+            <h3 class="text-[#CC0000] text-lg font-bold uppercase tracking-[0.2em]">Driving Results with The Best Technology</h3>
         </div>
 
-        <!-- Software Grid -->
-        <div class="grid grid-cols-2 md:grid-cols-5 gap-8">
-            
-            <!-- NetSuite (Red) -->
-            <div class="flex flex-col items-center p-8 border border-gray-100 rounded-xl hover:shadow-lg transition-shadow">
-                <img src="https://cdn.worldvectorlogo.com/logos/netsuite.svg" alt="NetSuite" class="h-16 mb-6">
-                <p class="font-black text-lg uppercase text-[#CC0000]">NetSuite</p>
+     <!-- Slider Container with uniform box sizes -->
+        <div class="swiper expertiseSlider w-full">
+            <div class="swiper-wrapper">
+                <!-- Slide: Uniform box sizes using h-24 and w-full -->
+                <div class="swiper-slide border border-gray-100 rounded-xl flex items-center justify-center p-3 h-24">
+                    <img src="/img/netsuite.jpeg" alt="NetSuite" class="h-full w-full object-contain">
+                </div>
+                <div class="swiper-slide border border-gray-100 rounded-xl flex items-center justify-center p-3 h-24">
+                    <img src="/img/xero.jpeg" alt="Xero" class="h-full w-full object-contain">
+                </div>
+                <div class="swiper-slide border border-gray-100 rounded-xl flex items-center justify-center p-3 h-24">
+                    <img src="/img/quickbooks.jpeg" alt="QuickBooks" class="h-full w-full object-contain">
+                </div>
+                <div class="swiper-slide border border-gray-100 rounded-xl flex items-center justify-center p-3 h-24">
+                    <img src="/img/intuitproconnect.jpeg" alt="ProConnect" class="h-full w-full object-contain">
+                </div>
             </div>
-
-            <!-- Xero (Blue) -->
-            <div class="flex flex-col items-center p-8 border border-gray-100 rounded-xl hover:shadow-lg transition-shadow">
-                <img src="https://cdn.worldvectorlogo.com/logos/xero-2.svg" alt="Xero" class="h-16 mb-6">
-                <p class="font-black text-lg uppercase text-[#003399]">Xero</p>
-            </div>
-
-            <!-- Zoho Books (Red) -->
-            <div class="flex flex-col items-center p-8 border border-gray-100 rounded-xl hover:shadow-lg transition-shadow">
-                <img src="https://cdn.worldvectorlogo.com/logos/zoho-books.svg" alt="Zoho Books" class="h-16 mb-6">
-                <p class="font-black text-lg uppercase text-[#CC0000]">Zoho Books</p>
-            </div>
-
-            <!-- QuickBooks (Blue) -->
-            <div class="flex flex-col items-center p-8 border border-gray-100 rounded-xl hover:shadow-lg transition-shadow">
-                <img src="https://cdn.worldvectorlogo.com/logos/quickbooks.svg" alt="QuickBooks" class="h-16 mb-6">
-                <p class="font-black text-lg uppercase text-[#003399]">QuickBooks</p>
-            </div>
-
-            <!-- Dynamics 365 (Red) -->
-            <div class="flex flex-col items-center p-8 border border-gray-100 rounded-xl hover:shadow-lg transition-shadow">
-                <img src="https://cdn.worldvectorlogo.com/logos/microsoft-dynamics-365.svg" alt="Dynamics 365" class="h-16 mb-6">
-                <p class="font-black text-lg uppercase text-[#CC0000]">Dynamics 365</p>
-            </div>
-
         </div>
+        
+        <script>
+          document.addEventListener("DOMContentLoaded", function() {
+            new Swiper('.expertiseSlider', {
+              loop: true,
+              slidesPerView: 3, 
+              spaceBetween: 10,
+              autoplay: { 
+                delay: 2000, 
+                disableOnInteraction: false 
+              }
+            });
+          });
+        </script>
     </div>
 </section>
 
-<!-- TESTIMONIALS SECTION (EspacioMNL Style with Placeholder Faces) -->
+
+
+<!-- TESTIMONIALS SECTION-->
 <section class="py-24 px-8 bg-[#EDF4FF] overflow-hidden">
     <div class="max-w-4xl mx-auto text-center relative">
 
@@ -616,3 +617,8 @@ topic
     
     setInterval(showSlides, 5000); // Cycles every 5 seconds
 </script>
+
+<!-- Swiper CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
