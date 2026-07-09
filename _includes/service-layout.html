@@ -1,0 +1,185 @@
+<section class="py-16 bg-white">
+    <div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-12">
+        <div class="prose max-w-none">
+            {{ content }}
+        </div>
+
+        <div class="bg-[#FDFBF7] p-8 border border-gray-100 rounded-lg shadow-sm" id="bookfreecons">
+            <h3 class="text-2xl font-black text-[#1A1A1A] uppercase mb-6">Book a Free Consultation</h3>
+            <form action="#" method="POST" class="space-y-4">
+                <div class="grid grid-cols-2 gap-4">
+                    <input type="text" placeholder="First Name *" class="w-full p-3 border border-gray-200 rounded outline-none">
+                    <input type="text" placeholder="Last Name *" class="w-full p-3 border border-gray-200 rounded outline-none">
+                </div>
+                <input type="email" placeholder="Your Email Address *" class="w-full p-3 border border-gray-200 rounded outline-none">
+                <input type="tel" placeholder="Mobile Phone *" class="w-full p-3 border border-gray-200 rounded outline-none">
+                <textarea placeholder="Your Message" rows="4" class="w-full p-3 border border-gray-200 rounded outline-none"></textarea>
+                <button type="submit" class="w-full bg-[#CC0000] text-white font-bold py-4 rounded hover:bg-red-700 transition-all uppercase">Submit Request</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+{% if page.additional_content %}
+<section class="bg-white py-24 px-6">
+    <div class="max-w-7xl mx-auto">
+        <div class="prose max-w-none text-center">
+            {{ page.additional_content }}
+        </div>
+    </div>
+</section>
+{% endif %}
+
+<section class="bg-[#F4F6F9] py-24 px-8">
+    <div class="max-w-7xl mx-auto">
+        <div class="max-w-4xl mb-16 space-y-4" data-reveal="up">
+            <h2 class="text-[#003399] text-4xl font-black uppercase tracking-tight">Why PhilPro?</h2>
+            <h3 class="text-2xl font-black text-[#1A1A1A] uppercase">Your Offshore Accounting Team—Without the Overhead</h3>
+
+            <p class="text-2xl text-[#333333] leading-relaxed pt-2">
+                Finding qualified accounting talent is becoming increasingly difficult and expensive. PhilPro provides dedicated finance professionals who integrate seamlessly into your business, allowing you to reduce costs while maintaining quality and compliance.
+            </p>
+        </div>
+
+        <!-- Cards Grid (No Images) -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+            <!-- Card 1: Qualified Professionals -->
+            <div class="group bg-white p-8 rounded-lg border border-gray-200 shadow-sm transition-all duration-300 hover:-translate-y-2 hover:shadow-xl" data-reveal="up">
+                <h4 class="text-2xl font-black text-[#1A1A1A] mb-3 uppercase tracking-wide group-hover:text-[#003399] transition-colors flex items-center gap-3">
+                    <span class="text-[#003399] text-2xl"><i class="fas fa-user-tie fa-solid"></i></span>
+                    Qualified Professionals
+                </h4>
+                <p class="text-xl text-[#333333] leading-relaxed">Highly trained and certified accounting experts matched to your operational needs.</p>
+            </div>
+
+            <!-- Card 2: Cost-Effective -->
+            <div class="group bg-white p-8 rounded-lg border border-gray-200 shadow-sm transition-all duration-300 hover:-translate-y-2 hover:shadow-xl" data-reveal="up">
+                <h4 class="text-2xl font-black text-[#1A1A1A] mb-3 uppercase tracking-wide group-hover:text-[#003399] transition-colors flex items-center gap-3">
+                    <span class="text-[#003399] text-2xl"><i class="fas fa-percentage fa-solid"></i></span>
+                    Cost-Effective
+                </h4>
+                <p class="text-xl text-[#333333] leading-relaxed">Drastically lower corporate overhead costs without sacrificing service quality.</p>
+            </div>
+
+            <!-- Card 3: Secure Processes -->
+            <div class="group bg-white p-8 rounded-lg border border-gray-200 shadow-sm transition-all duration-300 hover:-translate-y-2 hover:shadow-xl" data-reveal="up">
+                <h4 class="text-2xl font-black text-[#1A1A1A] mb-3 uppercase tracking-wide group-hover:text-[#003399] transition-colors flex items-center gap-3">
+                    <span class="text-[#003399] text-2xl"><i class="fas fa-shield-alt fa-solid"></i></span>
+                    Secure Processes
+                </h4>
+                <p class="text-xl text-[#333333] leading-relaxed">Strict regulatory confidentiality standards to keep your client records protected.</p>
+            </div>
+
+            <!-- Card 4: Flexible Scaling -->
+            <div class="group bg-white p-8 rounded-lg border border-gray-200 shadow-sm transition-all duration-300 hover:-translate-y-2 hover:shadow-xl" data-reveal="up">
+                <h4 class="text-2xl font-black text-[#1A1A1A] mb-3 uppercase tracking-wide group-hover:text-[#003399] transition-colors flex items-center gap-3">
+                    <span class="text-[#003399] text-2xl"><i class="fas fa-chart-line fa-solid"></i></span>
+                    Flexible Scaling
+                </h4>
+                <p class="text-xl text-[#333333] leading-relaxed">Easily add operational capacity as your practice expands month over month.</p>
+            </div>
+
+            <!-- Card 5: Fluent English -->
+            <div class="group bg-white p-8 rounded-lg border border-gray-200 shadow-sm transition-all duration-300 hover:-translate-y-2 hover:shadow-xl" data-reveal="up">
+                <h4 class="text-2xl font-black text-[#1A1A1A] mb-3 uppercase tracking-wide group-hover:text-[#003399] transition-colors flex items-center gap-3">
+                    <span class="text-[#003399] text-2xl"><i class="fas fa-comments fa-solid"></i></span>
+                    Fluent English
+                </h4>
+                <p class="text-xl text-[#333333] leading-relaxed">Clear, professional, and completely seamless daily corporate communications.</p>
+            </div>
+
+            <!-- Card 6: Dedicated Support -->
+            <div class="group bg-white p-8 rounded-lg border border-gray-200 shadow-sm transition-all duration-300 hover:-translate-y-2 hover:shadow-xl" data-reveal="up">
+                <h4 class="text-2xl font-black text-[#1A1A1A] mb-3 uppercase tracking-wide group-hover:text-[#003399] transition-colors flex items-center gap-3">
+                    <span class="text-[#003399] text-2xl"><i class="fas fa-headphones fa-solid"></i></span>
+                    Dedicated Support
+                </h4>
+                <p class="text-xl text-[#333333] leading-relaxed">Continuous local account management ensuring peak workflow execution.</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<section class="py-24 px-8 bg-white">
+    <div class="max-w-7xl mx-auto">
+        <!-- Header -->
+        <div class="text-center mb-16">
+            <h2 class="text-3xl md:text-5xl font-black text-[#1A1A1A] uppercase mb-4">Technology Expertise</h2>
+            <h3 class="text-[#CC0000] text-lg font-bold uppercase tracking-[0.2em]">Driving Results with The Best Technology</h3>
+        </div>
+
+        <!-- Slider Container with uniform box sizes -->
+        <div class="swiper expertiseSlider w-full">
+            <div class="swiper-wrapper">
+                <!-- Slide: Uniform box sizes using h-24 and w-full -->
+                <div class="swiper-slide border border-gray-100 rounded-xl flex items-center justify-center p-3 h-24">
+                    <img src="/img/netsuite.jpeg" alt="NetSuite" class="h-full w-full object-contain">
+                </div>
+                <div class="swiper-slide border border-gray-100 rounded-xl flex items-center justify-center p-3 h-24">
+                    <img src="/img/xero.jpeg" alt="Xero" class="h-full w-full object-contain">
+                </div>
+                <div class="swiper-slide border border-gray-100 rounded-xl flex items-center justify-center p-3 h-24">
+                    <img src="/img/quickbooks.jpeg" alt="QuickBooks" class="h-full w-full object-contain">
+                </div>
+                <div class="swiper-slide border border-gray-100 rounded-xl flex items-center justify-center p-3 h-24">
+                    <img src="/img/intuitproconnect.jpeg" alt="ProConnect" class="h-full w-full object-contain">
+                </div>
+            </div>
+        </div>
+
+        <script>
+          document.addEventListener("DOMContentLoaded", function() {
+            new Swiper('.expertiseSlider', {
+              loop: true,
+              slidesPerView: 3,
+              spaceBetween: 10,
+              autoplay: {
+                delay: 2000,
+                disableOnInteraction: false
+              }
+            });
+          });
+        </script>
+    </div>
+</section>
+
+
+<!-- FINAL CALL TO ACTION (CTA) (Hero Banner Matching Visual Design) -->
+<section class="relative bg-cover bg-center bg-no-repeat py-24 px-6 sm:px-12 lg:px-20 flex items-center bg-[#050B14] overflow-hidden"
+         style="background-image: url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=1600&auto=format&fit=crop'); background-color: #050B14;">
+
+    <!-- UPDATED: Brand-Aligned Deep Navy Overlay -->
+    <div class="absolute inset-0 bg-gradient-to-r from-[#001a4d]/95 via-[#002b80]/85 to-transparent z-10"></div>
+
+    <div class="max-w-4xl mx-auto text-center relative z-10 space-y-8" data-reveal="up">
+
+        <!-- Main Headline -->
+        <h2 class="text-4xl font-black uppercase leading-tight tracking-tight text-white-force text-white"
+            style="color: #FFFFFF !important; text-shadow: 0px 2px 4px rgba(0,0,0,0.4);">
+            Ready to Build Your Offshore Accounting Team?
+        </h2>
+
+        <!-- Supporting Subparagraph -->
+        <p class="text-xl sm:text-2xl max-w-2xl mx-auto leading-relaxed text-white-force text-gray-300"
+           style="color: #E5E7EB !important; text-shadow: 0px 1px 2px rgba(0,0,0,0.4);">
+            Partner with PhilPro to gain reliable accounting and tax outsourcing solutions backed by skilled Filipino professionals. Let's discuss how we can support your business.
+        </p>
+
+        <!-- Outlined Action Button Matching Hero Section -->
+        <div class="pt-4">
+            <a href="/contact" class="bg-transparent border-2 border-white text-base font-bold uppercase tracking-wider px-10 py-4 rounded hover:bg-[#CC0000] hover:border-[#CC0000] transition-colors duration-300 shadow-lg min-w-[180px] text-center inline-block no-underline"
+               style="color: #FFFFFF !important; border-color: #FFFFFF !important;">
+                Contact Us Today
+            </a>
+        </div>
+
+    </div>
+</section>
+
+<!-- Swiper CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
