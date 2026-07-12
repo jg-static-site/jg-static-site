@@ -1,96 +1,67 @@
-<!-- Injecting global font styles -->
-<style>
-    /* Senior-friendly Navigation Styles */
-    .senior-nav-link {
-        font-size: 20px !important;
-        font-weight: 700 !important;
-        text-transform: uppercase !important;
-        /* Restored vertical padding to original generous size */
-        padding: 12px 14px !important;
-        display: block !important;
-        transition: color 0.2s ease !important;
-    }
-
-    /* Active Link Styling */
-    .senior-nav-link.active-page {
-        color: #CC0000 !important;
-        font-weight: 900 !important;
-    }
-</style>
-
-<!-- TOP HEADER BAR -->
-<div class="bg-[#1A1A1A] text-white py-3 px-8 text-sm font-medium tracking-wide border-b border-gray-800">
-    <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-4">
-        <!-- Left Side: Socials -->
-        <div class="flex items-center gap-5 text-gray-300 order-2 sm:order-1">
-            <a href="https://facebook.com" target="_blank" class="hover:text-white transition-colors text-lg"><i class="fab fa-facebook-f"></i></a>
-            <a href="https://instagram.com" target="_blank" class="hover:text-white transition-colors text-lg"><i class="fab fa-instagram"></i></a>
-            <a href="https://m.me" target="_blank" class="hover:text-white transition-colors text-lg"><i class="fab fa-facebook-messenger"></i></a>
-        </div>
-        <!-- Right Side: Contact -->
-        <div class="flex flex-wrap items-center justify-center sm:justify-end gap-6 text-gray-300 order-1 sm:order-2">
-            <a href="tel:+639171085538" class="hover:text-white transition-colors flex items-center gap-2"><i class="fas fa-phone fa-solid text-[#CC0000]"></i> +63 917 108 5538</a>
-            <a href="https://viber.click/639171085538" target="_blank" class="hover:text-white transition-colors flex items-center gap-2"><i class="fab fa-viber text-purple-500"></i> Viber Chat</a>
-            <a href="mailto:info@philproglobal.com" class="hover:text-white transition-colors flex items-center gap-2"><i class="fas fa-envelope fa-solid text-[#CC0000]"></i> info@philproglobal.com</a>
-        </div>
-    </div>
-</div>
-
 <!-- Main Navigation Bar -->
-<nav class="sticky top-0 z-50 bg-[#FDFBF7]/95 backdrop-blur-md border-b border-[#CC0000]/30 shadow-md py-5">
-    <div class="max-w-7xl mx-auto px-6 flex flex-col lg:flex-row justify-between items-center gap-6">
+<nav class="sticky top-0 z-50 bg-[#FDFBF7]/95 backdrop-blur-md border-b border-[#CC0000]/30 shadow-md py-3 lg:py-5">
+    <div class="max-w-7xl mx-auto px-4 lg:px-6 flex justify-between items-center">
 
-        <!-- Logo Identity Block -->
-        <div class="flex items-center gap-5">
-            <img src="{{ '/philpro_logo.png' | relative_url }}" alt="PhilPro Logo" class="h-12 w-auto">
-            <div class="flex flex-col leading-none border-l-2 border-[#CC0000]/40 pl-5">
-                <span class="text-2xl font-black tracking-tight text-[#CC0000]">Phil<span class="text-[#003399] uppercase">Pro</span></span>
-                <span class="text-xs uppercase tracking-wider text-[#0A1B3A] mt-1 font-bold">Global Accounting & Outsourcing Solutions</span>
+        <!-- Left: Hamburger (Mobile) + Logo -->
+        <div class="flex items-center gap-3">
+            <button id="mobile-toggle" class="lg:hidden text-[#003399] text-2xl">
+                <i class="fas fa-bars"></i>
+            </button>
+            <img src="{{ '/philpro_logo.png' | relative_url }}" alt="PhilPro Logo" class="h-8 lg:h-12 w-auto">
+            <div class="hidden sm:flex flex-col leading-none border-l-2 border-[#CC0000]/40 pl-3 lg:pl-5">
+                <span class="text-xl lg:text-2xl font-black tracking-tight text-[#CC0000]">Phil<span class="text-[#003399] uppercase">Pro</span></span>
+                <!-- Restored subtitle visible from medium screens (md) and up -->
+                <span class="hidden md:block text-[10px] lg:text-xs uppercase tracking-wider text-[#0A1B3A] mt-1 font-bold">Global Accounting & Outsourcing Solutions</span>
             </div>
         </div>
 
-        <!-- Links Container -->
-        <div class="flex flex-wrap justify-center items-center gap-x-1 gap-y-2 text-center">
-            <a href="{{ '/' | relative_url }}" class="senior-nav-link text-[#003399] hover:text-[#CC0000] px-3">Home</a>
-            <a href="{{ '/about' | relative_url }}" class="senior-nav-link text-[#003399] hover:text-[#CC0000] px-3">About Us</a>
+        <!-- Right: Links -->
+        <div class="flex items-center gap-1 lg:gap-2">
+            <!-- Always visible -->
+            <a href="{{ '/' | relative_url }}" class="senior-nav-link text-sm lg:text-[20px] font-bold text-[#003399] hover:text-[#CC0000] px-2 lg:px-3">Home</a>
 
-            <!-- Services Dropdown -->
-            <div class="relative group">
-                <a href="/services" class="senior-nav-link text-[#003399] group-hover:text-[#CC0000] flex items-center gap-1 px-3">
-                    Services <i class="fas fa-chevron-down text-sm"></i>
-                </a>
-                <!-- Dropdown Menu -->
-                <div class="absolute left-0 top-full w-72 bg-white border border-gray-200 shadow-xl rounded-b-lg hidden group-hover:block z-[60]">
-                    <a href="/accounting-services" class="block px-6 py-3 text-lg font-bold text-[#003399] hover:bg-gray-50 hover:text-[#CC0000]">Accounting Services</a>
-                    <a href="/bookkeeping-services" class="block px-6 py-3 text-lg font-bold text-[#003399] hover:bg-gray-50 hover:text-[#CC0000]">Bookkeeping Services</a>
-                    <a href="/tax-preparation-services" class="block px-6 py-3 text-lg font-bold text-[#003399] hover:bg-gray-50 hover:text-[#CC0000]">Tax Preparation Services</a>
-                    <a href="/payroll-processing-services" class="block px-6 py-3 text-lg font-bold text-[#003399] hover:bg-gray-50 hover:text-[#CC0000]">Payroll Processing Services</a>
-                    <a href="/invoice-processing-services" class="block px-6 py-3 text-lg font-bold text-[#003399] hover:bg-gray-50 hover:text-[#CC0000]">Invoice Processing Services</a>
-                    <a href="/accounts-receivable-services" class="block px-6 py-3 text-lg font-bold text-[#003399] hover:bg-gray-50 hover:text-[#CC0000]">Accounts Receivable Services</a>
-                    <a href="/accounts-payable-services" class="block px-6 py-3 text-lg font-bold text-[#003399] hover:bg-gray-50 hover:text-[#CC0000]">Accounts Payable Services</a>
-                    <a href="/financial-services" class="block px-6 py-3 text-lg font-bold text-[#003399] hover:bg-gray-50 hover:text-[#CC0000]">Financial Services</a>
-                    <a href="/audit-services-for-cpas" class="block px-6 py-3 text-lg font-bold text-[#003399] hover:bg-gray-50 hover:text-[#CC0000]">Audit Services for CPAs</a>
+            <!-- Secondary Links (Toggleable) -->
+            <div id="nav-secondary" class="hidden lg:flex items-center gap-1 lg:gap-2 absolute lg:static top-full left-0 w-full lg:w-auto bg-[#FDFBF7] lg:bg-transparent shadow-xl lg:shadow-none p-4 lg:p-0 flex-col lg:flex-row border-t-4 border-[#CC0000] lg:border-none z-[60]">
+                <a href="{{ '/about' | relative_url }}" class="senior-nav-link text-sm lg:text-[20px] font-bold text-[#003399] hover:text-[#CC0000] px-3">About Us</a>
+
+                <!-- Services Dropdown -->
+                <div class="relative group w-full lg:w-auto text-center">
+                    <button id="services-btn" class="senior-nav-link text-sm lg:text-[20px] font-bold text-[#003399] hover:text-[#CC0000] flex items-center justify-center gap-1 px-3 w-full">
+                        Services <i class="fas fa-chevron-down text-xs"></i>
+                    </button>
+                    <div id="services-menu" class="lg:absolute left-0 top-full w-full lg:w-72 bg-white border border-gray-200 shadow-xl rounded-b-lg hidden group-hover:block z-[60] text-left">
+                        <a href="/accounting-services" class="block px-6 py-3 text-sm lg:text-lg font-bold text-[#003399] border-b hover:bg-gray-50 hover:text-[#CC0000]">Accounting Services</a>
+                        <a href="/bookkeeping-services" class="block px-6 py-3 text-sm lg:text-lg font-bold text-[#003399] border-b hover:bg-gray-50 hover:text-[#CC0000]">Bookkeeping Services</a>
+                        <a href="/tax-preparation-services" class="block px-6 py-3 text-sm lg:text-lg font-bold text-[#003399] border-b hover:bg-gray-50 hover:text-[#CC0000]">Tax Preparation Services</a>
+                        <a href="/payroll-processing-services" class="block px-6 py-3 text-sm lg:text-lg font-bold text-[#003399] border-b hover:bg-gray-50 hover:text-[#CC0000]">Payroll Processing Services</a>
+                        <a href="/invoice-processing-services" class="block px-6 py-3 text-sm lg:text-lg font-bold text-[#003399] border-b hover:bg-gray-50 hover:text-[#CC0000]">Invoice Processing Services</a>
+                        <a href="/accounts-receivable-services" class="block px-6 py-3 text-sm lg:text-lg font-bold text-[#003399] border-b hover:bg-gray-50 hover:text-[#CC0000]">Accounts Receivable Services</a>
+                        <a href="/accounts-payable-services" class="block px-6 py-3 text-sm lg:text-lg font-bold text-[#003399] border-b hover:bg-gray-50 hover:text-[#CC0000]">Accounts Payable Services</a>
+                        <a href="/financial-services" class="block px-6 py-3 text-sm lg:text-lg font-bold text-[#003399] border-b hover:bg-gray-50 hover:text-[#CC0000]">Financial Services</a>
+                        <a href="/audit-services-for-cpas" class="block px-6 py-3 text-sm lg:text-lg font-bold text-[#003399] hover:bg-gray-50 hover:text-[#CC0000]">Audit Services for CPAs</a>
+                    </div>
                 </div>
+
+                <a href="/FAQ" class="senior-nav-link text-sm lg:text-[20px] font-bold text-[#003399] hover:text-[#CC0000] px-3">FAQ</a>
             </div>
 
-            <a href="/FAQ" class="senior-nav-link text-[#003399] hover:text-[#CC0000] px-3">FAQ</a>
-
-            <!-- Contact CTA Button: Reduced margin-left and padding slightly to fit -->
-            <a href="/contact" class="lg:ml-2 bg-[#003399] text-[#FDFBF7] text-xl font-bold uppercase px-6 py-3 rounded-md hover:bg-[#CC0000] transition-colors duration-200 block shadow-md no-underline">
-                Contact Us
+            <!-- Contact -->
+            <a href="/contact" class="bg-[#003399] text-[#FDFBF7] text-sm lg:text-xl font-bold uppercase px-3 lg:px-6 py-2 lg:py-3 rounded hover:bg-[#CC0000] transition-colors shadow-md no-underline">
+                Contact
             </a>
         </div>
     </div>
 </nav>
 
 <script>
-    document.addEventListener("DOMContentLoaded", function() {
-        const currentPath = window.location.pathname;
-        const navLinks = document.querySelectorAll('.senior-nav-link');
-        navLinks.forEach(link => {
-            if (link.getAttribute('href') === currentPath || (currentPath === '/' && link.getAttribute('href').endsWith('/'))) {
-                link.classList.add('active-page');
-            }
-        });
+    document.getElementById('mobile-toggle').addEventListener('click', () => {
+        const menu = document.getElementById('nav-secondary');
+        menu.classList.toggle('hidden');
+        menu.classList.toggle('flex');
+    });
+
+    document.getElementById('services-btn').addEventListener('click', (e) => {
+        e.stopPropagation();
+        document.getElementById('services-menu').classList.toggle('hidden');
     });
 </script>
