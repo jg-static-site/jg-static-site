@@ -73,8 +73,8 @@ title: Home | PhilPro Global
     <div class="max-w-7xl mx-auto">
         <div class="max-w-4xl mb-16 space-y-4" data-reveal="up">
             <!-- H2 is now the dominant title (4xl) -->
-           <h2 class="text-4xl font-black uppercase tracking-tight">
-                <span class="text-[#CC0000]">Why</span><span class="text-[#003399]"> PhilPro?</span>
+           <h2 class="text-4xl font-black text-[#1A1A1A] uppercase tracking-tight">
+                Why <span class="text-[#CC0000]">Phil</span><span class="text-[#003399]">Pro?</span>
             </h2>
             <!-- H3 is now the sub-header (2xl) -->
             <h3 class="text-2xl font-black text-[#1A1A1A] uppercase">Your Offshore Accounting Team—Without the Overhead</h3>
