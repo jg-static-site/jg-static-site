@@ -332,16 +332,11 @@ title: Home | PhilPro Global
     </div>
 </section>
 
-<!-- STRATEGIC ADVANTAGE: WHY THE PHILIPPINES (Map Silhouette Design) -->
-<section class="relative bg-[#EDF4FF] py-24 px-8 text-center overflow-hidden">
+<!-- STRATEGIC ADVANTAGE: WHY THE PHILIPPINES (Flag Background Design) -->
+<section class="relative py-24 px-8 text-center overflow-hidden bg-cover bg-center" style="background-image: url('/img/why_ph.jpg');">
 
-    <!-- Philippines Map Watermark -->
-    <div class="absolute inset-0 z-0 flex items-center justify-center opacity-[0.04] pointer-events-none">
-        <svg viewBox="0 0 400 600" xmlns="http://www.w3.org/2000/svg" class="h-full w-auto">
-            <!-- Simplified Philippine Map Outline -->
-            <path d="M220 50 L240 80 L230 110 L250 140 L220 180 L200 220 L180 250 L150 240 L130 280 L160 320 L140 360 L170 400 L150 440 L180 480 L160 520 L190 560 L210 520 L240 480 L220 440 L250 400 L280 360 L300 320 L280 280 L320 240 L350 200 L320 160 L300 120 L280 80 L260 40 Z" fill="#003399" />
-        </svg>
-    </div>
+    <!-- White Overlay for readability -->
+    <div class="absolute inset-0 bg-white/80"></div>
 
     <!-- Content -->
     <div class="relative z-10 max-w-4xl mx-auto space-y-8">

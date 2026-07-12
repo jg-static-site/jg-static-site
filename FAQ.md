@@ -8,237 +8,131 @@
         </div>
 
         <!-- FAQ Categories -->
-        <div class="space-y-12">
+        <div class="space-y-6">
             
-            <!-- A. General Questions -->
-            <div>
-                <h3 class="text-2xl font-bold text-[#CC0000] mb-4 border-b-2 border-[#CC0000] pb-2">A. General Questions</h3>
-                <div class="space-y-4">
-                    <details class="bg-white p-6 rounded-lg shadow-sm">
-                        <summary class="font-bold text-[#003399] cursor-pointer text-lg outline-none">1. Why should I outsource accounting to the Philippines?</summary>
-                        <ul class="list-disc pl-8 mt-4 text-base text-gray-700 leading-relaxed space-y-2">
-                            <li>Lower operating costs</li>
-                            <li>Highly educated, English-speaking accountants</li>
-                            <li>Familiarity with international accounting software</li>
-                            <li>Ability to provide scalable support</li>
-                        </ul>
-                    </details>
-                    <details class="bg-white p-6 rounded-lg shadow-sm">
-                        <summary class="font-bold text-[#003399] cursor-pointer text-lg outline-none">2. Which countries do you serve?</summary>
-                        <p class="mt-4 text-base text-gray-700 leading-relaxed">We work with businesses worldwide, including clients in the US, Canada, UK, Australia, New Zealand, Singapore, the Middle East, and Europe.</p>
-                    </details>
-                    <details class="bg-white p-6 rounded-lg shadow-sm">
-                        <summary class="font-bold text-[#003399] cursor-pointer text-lg outline-none">3. What types of businesses do you work with?</summary>
-                        <ul class="list-disc pl-8 mt-4 text-base text-gray-700 leading-relaxed space-y-2">
-                            <li>Accounting Firms</li><li>Professional Services</li><li>E-commerce</li><li>Real Estate</li><li>Healthcare</li><li>Construction</li><li>Technology Companies</li><li>Startups</li><li>Nonprofit Organizations</li>
-                        </ul>
-                    </details>
-                </div>
-            </div>
+            <details class="bg-white p-6 rounded-lg shadow-sm">
+                <summary class="font-bold text-[#003399] cursor-pointer text-lg outline-none">1. How long have you been in business?</summary>
+                <p class="mt-4 text-base text-gray-700 leading-relaxed">PhilPro Global has been serving businesses by providing professional accounting and bookkeeping outsourcing solutions from the Philippines. Our management team has extensive experience in accounting, finance, and business process outsourcing, allowing us to effectively support the needs of U.S. accounting firms.</p>
+            </details>
 
-            <!-- B. Accounting Services -->
-            <div>
-                <h3 class="text-2xl font-bold text-[#CC0000] mb-4 border-b-2 border-[#CC0000] pb-2">B. Accounting Services</h3>
-                <div class="space-y-4">
-                    <details class="bg-white p-6 rounded-lg shadow-sm">
-                        <summary class="font-bold text-[#003399] cursor-pointer text-lg outline-none">1. What accounting services do you provide?</summary>
-                        <ul class="list-disc pl-8 mt-4 text-base text-gray-700 leading-relaxed space-y-2">
-                            <li>Accounting Services</li><li>Bookkeeping Services</li><li>Tax Preparation</li><li>Payroll Processing</li><li>Invoice Processing Services</li><li>Accounts Receivables Services</li><li>Accounts Payable Services</li><li>Other Offshore Services</li>
-                        </ul>
-                    </details>
-                    <details class="bg-white p-6 rounded-lg shadow-sm">
-                        <summary class="font-bold text-[#003399] cursor-pointer text-lg outline-none">2. Can you work with my existing accounting software?</summary>
-                        <p class="mt-4 text-base text-gray-700 leading-relaxed mb-3">Yes. We commonly use:</p>
-                        <ul class="list-disc pl-8 text-base text-gray-700 leading-relaxed space-y-2">
-                            <li>QuickBooks Online</li><li>Xero</li><li>Zoho Books</li><li>Sage</li><li>NetSuite</li><li>Microsoft Dynamics 365 Business Central</li><li>FreshBooks</li>
-                        </ul>
-                    </details>
-                    <details class="bg-white p-6 rounded-lg shadow-sm">
-                        <summary class="font-bold text-[#003399] cursor-pointer text-lg outline-none">3. Do you provide monthly financial reports?</summary>
-                        <p class="mt-4 text-base text-gray-700 leading-relaxed">Yes. Reports can be customized based on your business needs.</p>
-                    </details>
-                </div>
-            </div>
+            <details class="bg-white p-6 rounded-lg shadow-sm">
+                <summary class="font-bold text-[#003399] cursor-pointer text-lg outline-none">2. Is your company legally registered in the Philippines?</summary>
+                <p class="mt-4 text-base text-gray-700 leading-relaxed">Yes. PhilPro Global is a legally registered company in the Philippines and operates in compliance with all applicable corporate and tax regulations.</p>
+            </details>
 
-            <!-- C. Tax Services -->
-            <div>
-                <h3 class="text-2xl font-bold text-[#CC0000] mb-4 border-b-2 border-[#CC0000] pb-2">C. Tax Services</h3>
-                <div class="space-y-4">
-                    <details class="bg-white p-6 rounded-lg shadow-sm">
-                        <summary class="font-bold text-[#003399] cursor-pointer text-lg outline-none">1. Can you prepare taxes for my country?</summary>
-                        <p class="mt-4 text-base text-gray-700 leading-relaxed italic">Typical answer: We support tax preparation and compliance based on your country's regulations, often working alongside your local CPA or tax advisor where required.</p>
-                    </details>
-                    <details class="bg-white p-6 rounded-lg shadow-sm">
-                        <summary class="font-bold text-[#003399] cursor-pointer text-lg outline-none">2. Can you prepare US tax returns?</summary>
-                        <p class="mt-4 text-base text-gray-700 leading-relaxed mb-3 font-semibold">Depending on your firm's qualifications:</p>
-                        <ul class="list-disc pl-8 text-base text-gray-700 leading-relaxed space-y-2">
-                            <li>Individual taxes</li><li>Business taxes</li><li>Sales tax support</li><li>Payroll tax support</li>
-                        </ul>
-                    </details>
-                    <details class="bg-white p-6 rounded-lg shadow-sm">
-                        <summary class="font-bold text-[#003399] cursor-pointer text-lg outline-none">3. Do you handle VAT/GST?</summary>
-                        <p class="mt-4 text-base text-gray-700 leading-relaxed">Yes, for jurisdictions where your firm has the expertise.</p>
-                    </details>
-                </div>
-            </div>
+            <details class="bg-white p-6 rounded-lg shadow-sm">
+                <summary class="font-bold text-[#003399] cursor-pointer text-lg outline-none">3. How many employees do you have?</summary>
+                <p class="mt-4 text-base text-gray-700 leading-relaxed">We have a workforce of more than 500 qualified Filipino accountants and finance professionals, enabling us to support both small and large accounting firms and scale quickly based on client demand.</p>
+            </details>
 
-            <!-- C. Security -->
-            <div>
-                <h3 class="text-2xl font-bold text-[#CC0000] mb-4 border-b-2 border-[#CC0000] pb-2">C. Security</h3>
-                <div class="space-y-4">
-                    <details class="bg-white p-6 rounded-lg shadow-sm">
-                        <summary class="font-bold text-[#003399] cursor-pointer text-lg outline-none">1. How do you keep my financial information secure?</summary>
-                        <ul class="list-disc pl-8 mt-4 text-base text-gray-700 leading-relaxed space-y-2">
-                            <li>Secure cloud platforms</li><li>Encrypted file transfers</li><li>Confidentiality agreements</li><li>Role-based access</li><li>Regular backups</li><li>Multi-factor authentication</li>
-                        </ul>
-                    </details>
-                    <details class="bg-white p-6 rounded-lg shadow-sm">
-                        <summary class="font-bold text-[#003399] cursor-pointer text-lg outline-none">2. Do you sign NDAs?</summary>
-                        <p class="mt-4 text-base text-gray-700 leading-relaxed">Yes.</p>
-                    </details>
-                    <details class="bg-white p-6 rounded-lg shadow-sm">
-                        <summary class="font-bold text-[#003399] cursor-pointer text-lg outline-none">3. Who owns the data?</summary>
-                        <p class="mt-4 text-base text-gray-700 leading-relaxed">The client retains full ownership of all financial data.</p>
-                    </details>
-                </div>
-            </div>
+            <details class="bg-white p-6 rounded-lg shadow-sm">
+                <summary class="font-bold text-[#003399] cursor-pointer text-lg outline-none">4. What experience do you have serving U.S. accounting firms?</summary>
+                <p class="mt-4 text-base text-gray-700 leading-relaxed">Our team has experience supporting U.S.-based CPA firms and accounting companies in bookkeeping, month-end close, reconciliations, financial reporting, payroll processing, and tax preparation support.</p>
+            </details>
 
-            <!-- D. Team & Communication -->
-            <div>
-                <h3 class="text-2xl font-bold text-[#CC0000] mb-4 border-b-2 border-[#CC0000] pb-2">D. Team & Communication</h3>
-                <div class="space-y-4">
-                    <details class="bg-white p-6 rounded-lg shadow-sm">
-                        <summary class="font-bold text-[#003399] cursor-pointer text-lg outline-none">1. Will I have a dedicated accountant?</summary>
-                        <p class="mt-4 text-base text-gray-700 leading-relaxed">Yes, most firms assign a dedicated accountant or account manager.</p>
-                    </details>
-                    <details class="bg-white p-6 rounded-lg shadow-sm">
-                        <summary class="font-bold text-[#003399] cursor-pointer text-lg outline-none">2. What are your working hours?</summary>
-                        <ul class="list-disc pl-8 mt-4 text-base text-gray-700 leading-relaxed space-y-2">
-                            <li>US business hours</li><li>UK business hours</li><li>Australian business hours</li><li>Flexible overlap schedules</li>
-                        </ul>
-                    </details>
-                    <details class="bg-white p-6 rounded-lg shadow-sm">
-                        <summary class="font-bold text-[#003399] cursor-pointer text-lg outline-none">3. How do we communicate?</summary>
-                        <ul class="list-disc pl-8 mt-4 text-base text-gray-700 leading-relaxed space-y-2">
-                            <li>Email</li><li>Video meetings</li><li>Phone</li><li>Team collaboration platforms</li>
-                        </ul>
-                    </details>
-                </div>
-            </div>
+            <details class="bg-white p-6 rounded-lg shadow-sm">
+                <summary class="font-bold text-[#003399] cursor-pointer text-lg outline-none">5. Can you provide references or client testimonials?</summary>
+                <p class="mt-4 text-base text-gray-700 leading-relaxed">Yes, subject to confidentiality agreements and client approval, we can provide references and case studies demonstrating our successful partnerships.</p>
+            </details>
 
-            <!-- E. Pricing -->
-            <div>
-                <h3 class="text-2xl font-bold text-[#CC0000] mb-4 border-b-2 border-[#CC0000] pb-2">E. Pricing</h3>
-                <div class="space-y-4">
-                    <details class="bg-white p-6 rounded-lg shadow-sm">
-                        <summary class="font-bold text-[#003399] cursor-pointer text-lg outline-none">1. How much do your services cost?</summary>
-                        <ul class="list-disc pl-8 mt-4 text-base text-gray-700 leading-relaxed space-y-2">
-                            <li>Hourly</li><li>Monthly fixed fee</li><li>Per transaction</li><li>Custom packages</li>
-                        </ul>
-                    </details>
-                    <details class="bg-white p-6 rounded-lg shadow-sm">
-                        <summary class="font-bold text-[#003399] cursor-pointer text-lg outline-none">2. Can I scale services up or down?</summary>
-                        <p class="mt-4 text-base text-gray-700 leading-relaxed">Yes.</p>
-                    </details>
-                    <details class="bg-white p-6 rounded-lg shadow-sm">
-                        <summary class="font-bold text-[#003399] cursor-pointer text-lg outline-none">3. Are there long-term contracts?</summary>
-                        <p class="mt-4 text-base text-gray-700 leading-relaxed">Many firms offer both monthly and annual agreements.</p>
-                    </details>
-                </div>
-            </div>
+            <details class="bg-white p-6 rounded-lg shadow-sm">
+                <summary class="font-bold text-[#003399] cursor-pointer text-lg outline-none">6. What qualifications do your accountants have?</summary>
+                <p class="mt-4 text-base text-gray-700 leading-relaxed">Our team consists of accountants, CPAs, and finance professionals with strong backgrounds in accounting, auditing, and financial management. Many have experience working with U.S. clients and accounting software.</p>
+            </details>
 
-            <!-- F. Transition -->
-            <div>
-                <h3 class="text-2xl font-bold text-[#CC0000] mb-4 border-b-2 border-[#CC0000] pb-2">F. Transition</h3>
-                <div class="space-y-4">
-                    <details class="bg-white p-6 rounded-lg shadow-sm">
-                        <summary class="font-bold text-[#003399] cursor-pointer text-lg outline-none">1. How long does onboarding take?</summary>
-                        <p class="mt-4 text-base text-gray-700 leading-relaxed">Typically 1–4 weeks, depending on the complexity of your accounting records.</p>
-                    </details>
-                    <details class="bg-white p-6 rounded-lg shadow-sm">
-                        <summary class="font-bold text-[#003399] cursor-pointer text-lg outline-none">2. Can you clean up my books before taking over?</summary>
-                        <p class="mt-4 text-base text-gray-700 leading-relaxed">Yes.</p>
-                    </details>
-                    <details class="bg-white p-6 rounded-lg shadow-sm">
-                        <summary class="font-bold text-[#003399] cursor-pointer text-lg outline-none">3. Will you work with my current CPA or auditor?</summary>
-                        <p class="mt-4 text-base text-gray-700 leading-relaxed">Yes.</p>
-                    </details>
-                </div>
-            </div>
+            <details class="bg-white p-6 rounded-lg shadow-sm">
+                <summary class="font-bold text-[#003399] cursor-pointer text-lg outline-none">7. Are your staff familiar with U.S. accounting standards?</summary>
+                <p class="mt-4 text-base text-gray-700 leading-relaxed">Yes. Our professionals are trained in U.S. GAAP principles, bookkeeping processes, and U.S. accounting workflows commonly used by CPA firms.</p>
+            </details>
 
-            <!-- F. Compliance -->
-            <div>
-                <h3 class="text-2xl font-bold text-[#CC0000] mb-4 border-b-2 border-[#CC0000] pb-2">F. Compliance</h3>
-                <div class="space-y-4">
-                    <details class="bg-white p-6 rounded-lg shadow-sm">
-                        <summary class="font-bold text-[#003399] cursor-pointer text-lg outline-none">1. Are your accountants qualified?</summary>
-                        <p class="mt-4 text-base text-gray-700 leading-relaxed">Many Philippine accounting professionals hold degrees in accountancy, and some are licensed CPAs or have international certifications.</p>
-                    </details>
-                    <details class="bg-white p-6 rounded-lg shadow-sm">
-                        <summary class="font-bold text-[#003399] cursor-pointer text-lg outline-none">2. Can you prepare financial statements under international standards?</summary>
-                        <p class="mt-4 text-base text-gray-700 leading-relaxed">Yes, if your team has expertise in the applicable reporting framework, such as International Financial Reporting Standards (IFRS) or country-specific requirements.</p>
-                    </details>
-                    <details class="bg-white p-6 rounded-lg shadow-sm">
-                        <summary class="font-bold text-[#003399] cursor-pointer text-lg outline-none">3. Do you maintain confidentiality?</summary>
-                        <p class="mt-4 text-base text-gray-700 leading-relaxed">Absolutely. Client confidentiality is a core professional obligation.</p>
-                    </details>
-                </div>
-            </div>
+            <details class="bg-white p-6 rounded-lg shadow-sm">
+                <summary class="font-bold text-[#003399] cursor-pointer text-lg outline-none">8. What services can you provide?</summary>
+                <ul class="list-disc pl-8 mt-4 text-base text-gray-700 leading-relaxed space-y-2">
+                    <li>Bookkeeping</li>
+                    <li>Accounts Payable and Receivable</li>
+                    <li>Bank Reconciliations</li>
+                    <li>Payroll Support</li>
+                    <li>Financial Reporting</li>
+                    <li>Month-End Close</li>
+                    <li>Tax Preparation Support</li>
+                    <li>Administrative and Back-Office Support</li>
+                </ul>
+            </details>
 
-            <!-- G. Payroll -->
-            <div>
-                <h3 class="text-2xl font-bold text-[#CC0000] mb-4 border-b-2 border-[#CC0000] pb-2">G. Payroll</h3>
-                <div class="space-y-4">
-                    <details class="bg-white p-6 rounded-lg shadow-sm">
-                        <summary class="font-bold text-[#003399] cursor-pointer text-lg outline-none">1. Can you process payroll?</summary>
-                        <p class="mt-4 text-base text-gray-700 leading-relaxed">Yes.</p>
-                    </details>
-                    <details class="bg-white p-6 rounded-lg shadow-sm">
-                        <summary class="font-bold text-[#003399] cursor-pointer text-lg outline-none">2. Can you manage employee reimbursements and benefits?</summary>
-                        <p class="mt-4 text-base text-gray-700 leading-relaxed">Yes.</p>
-                    </details>
-                    <details class="bg-white p-6 rounded-lg shadow-sm">
-                        <summary class="font-bold text-[#003399] cursor-pointer text-lg outline-none">3. Can you process payroll in multiple countries?</summary>
-                        <p class="mt-4 text-base text-gray-700 leading-relaxed">Depending on your firm's capabilities and local compliance requirements.</p>
-                    </details>
-                </div>
-            </div>
+            <details class="bg-white p-6 rounded-lg shadow-sm">
+                <summary class="font-bold text-[#003399] cursor-pointer text-lg outline-none">9. Which accounting software do you support?</summary>
+                <p class="mt-4 text-base text-gray-700 leading-relaxed mb-3">Our team is experienced with:</p>
+                <ul class="list-disc pl-8 text-base text-gray-700 leading-relaxed space-y-2">
+                    <li>QuickBooks Online</li><li>QuickBooks Desktop</li><li>Xero</li><li>NetSuite</li><li>Sage</li><li>Bill.com</li><li>Gusto</li><li>ADP</li><li>Microsoft Excel and other cloud-based accounting applications.</li>
+                </ul>
+            </details>
 
-            <!-- G. Technology -->
-            <div>
-                <h3 class="text-2xl font-bold text-[#CC0000] mb-4 border-b-2 border-[#CC0000] pb-2">G. Technology</h3>
-                <div class="space-y-4">
-                    <details class="bg-white p-6 rounded-lg shadow-sm">
-                        <summary class="font-bold text-[#003399] cursor-pointer text-lg outline-none">1. Can you automate bookkeeping?</summary>
-                        <p class="mt-4 text-base text-gray-700 leading-relaxed">Yes, by integrating accounting software with banking, invoicing, and payment systems where supported.</p>
-                    </details>
-                    <details class="bg-white p-6 rounded-lg shadow-sm">
-                        <summary class="font-bold text-[#003399] cursor-pointer text-lg outline-none">2. Do you use cloud accounting?</summary>
-                        <p class="mt-4 text-base text-gray-700 leading-relaxed">Yes.</p>
-                    </details>
-                    <details class="bg-white p-6 rounded-lg shadow-sm">
-                        <summary class="font-bold text-[#003399] cursor-pointer text-lg outline-none">3. Can you migrate from one accounting system to another?</summary>
-                        <p class="mt-4 text-base text-gray-700 leading-relaxed">Yes.</p>
-                    </details>
-                </div>
-            </div>
+            <details class="bg-white p-6 rounded-lg shadow-sm">
+                <summary class="font-bold text-[#003399] cursor-pointer text-lg outline-none">10. How much can we save by outsourcing?</summary>
+                <p class="mt-4 text-base text-gray-700 leading-relaxed">Most firms realize cost savings of 40% to 60% compared to hiring equivalent in-house staff in the United States, while maintaining quality and increasing operational flexibility.</p>
+            </details>
 
-            <!-- H. Why Choose Your Firm? -->
-            <div>
-                <h3 class="text-2xl font-bold text-[#CC0000] mb-4 border-b-2 border-[#CC0000] pb-2">H. Why Choose Your Firm?</h3>
-                <div class="space-y-4">
-                    <details class="bg-white p-6 rounded-lg shadow-sm">
-                        <summary class="font-bold text-[#003399] cursor-pointer text-lg outline-none">1. What makes your outsourcing firm different?</summary>
-                        <ul class="list-disc pl-8 mt-4 text-base text-gray-700 leading-relaxed space-y-2">
-                            <li>Experienced accountants</li><li>Cost-effective solutions</li><li>Personalized service</li><li>Fast response times</li><li>Industry expertise</li><li>International client experience</li><li>Strong data security practices</li><li>Transparent pricing</li>
-                        </ul>
-                    </details>
-                    <details class="bg-white p-6 rounded-lg shadow-sm">
-                        <summary class="font-bold text-[#003399] cursor-pointer text-lg outline-none">2. Can I start with a trial or a small project?</summary>
-                        <p class="mt-4 text-base text-gray-700 leading-relaxed">Many firms offer a pilot engagement or limited-scope project before a long-term commitment.</p>
-                    </details>
-                </div>
-            </div>
+            <details class="bg-white p-6 rounded-lg shadow-sm">
+                <summary class="font-bold text-[#003399] cursor-pointer text-lg outline-none">11. How do you protect client data?</summary>
+                <p class="mt-4 text-base text-gray-700 leading-relaxed">Data security is one of our highest priorities. We implement confidentiality agreements, secure access controls, restricted file sharing, password policies, and secure IT infrastructure to protect client information.</p>
+            </details>
+
+            <details class="bg-white p-6 rounded-lg shadow-sm">
+                <summary class="font-bold text-[#003399] cursor-pointer text-lg outline-none">12. Do your employees sign confidentiality agreements?</summary>
+                <p class="mt-4 text-base text-gray-700 leading-relaxed">Absolutely. Every employee signs a Non-Disclosure Agreement and adheres to strict confidentiality and data privacy policies.</p>
+            </details>
+
+            <details class="bg-white p-6 rounded-lg shadow-sm">
+                <summary class="font-bold text-[#003399] cursor-pointer text-lg outline-none">13. Can your team work during U.S. business hours?</summary>
+                <p class="mt-4 text-base text-gray-700 leading-relaxed">Yes. We can provide flexible schedules, including overlapping hours with U.S. time zones to ensure seamless communication and support.</p>
+            </details>
+
+            <details class="bg-white p-6 rounded-lg shadow-sm">
+                <summary class="font-bold text-[#003399] cursor-pointer text-lg outline-none">14. Who will be our point of contact?</summary>
+                <p class="mt-4 text-base text-gray-700 leading-relaxed">Each client is assigned a dedicated account manager who serves as the primary point of contact and ensures smooth communication and service delivery.</p>
+            </details>
+
+            <details class="bg-white p-6 rounded-lg shadow-sm">
+                <summary class="font-bold text-[#003399] cursor-pointer text-lg outline-none">15. How do you ensure quality?</summary>
+                <p class="mt-4 text-base text-gray-700 leading-relaxed">We employ a multi-level review process, quality assurance procedures, and regular performance monitoring to ensure accuracy and consistency.</p>
+            </details>
+
+            <details class="bg-white p-6 rounded-lg shadow-sm">
+                <summary class="font-bold text-[#003399] cursor-pointer text-lg outline-none">16. What happens if an assigned accountant resigns?</summary>
+                <p class="mt-4 text-base text-gray-700 leading-relaxed">We maintain business continuity through cross-training, proper documentation, and backup personnel, ensuring minimal disruption to your operations.</p>
+            </details>
+
+            <details class="bg-white p-6 rounded-lg shadow-sm">
+                <summary class="font-bold text-[#003399] cursor-pointer text-lg outline-none">17. How quickly can you add more staff?</summary>
+                <p class="mt-4 text-base text-gray-700 leading-relaxed">Because we have a large talent pool, we can typically scale and onboard additional accountants within a short period depending on your requirements.</p>
+            </details>
+
+            <details class="bg-white p-6 rounded-lg shadow-sm">
+                <summary class="font-bold text-[#003399] cursor-pointer text-lg outline-none">18. Can you provide a dedicated team?</summary>
+                <p class="mt-4 text-base text-gray-700 leading-relaxed">Yes. We can provide dedicated accountants or entire teams that work exclusively with your firm and integrate into your existing processes.</p>
+            </details>
+
+            <details class="bg-white p-6 rounded-lg shadow-sm">
+                <summary class="font-bold text-[#003399] cursor-pointer text-lg outline-none">19. Why should I outsource to the Philippines instead of India or Latin America?</summary>
+                <p class="mt-4 text-base text-gray-700 leading-relaxed">The Philippines offers highly educated accounting professionals, strong English proficiency, cultural compatibility with U.S. businesses, and competitive pricing while maintaining excellent service quality.</p>
+            </details>
+
+            <details class="bg-white p-6 rounded-lg shadow-sm">
+                <summary class="font-bold text-[#003399] cursor-pointer text-lg outline-none">20. What makes your company different?</summary>
+                <ul class="list-disc pl-8 mt-4 text-base text-gray-700 leading-relaxed space-y-2">
+                    <li>More than 500 qualified accounting professionals</li>
+                    <li>Deep understanding of U.S. accounting processes</li>
+                    <li>Flexible and scalable staffing solutions</li>
+                    <li>Dedicated client support</li>
+                    <li>Cost savings of up to 60%</li>
+                    <li>Commitment to quality, security, and long-term partnerships.</li>
+                </ul>
+            </details>
+
+            <details class="bg-white p-6 rounded-lg shadow-sm border-2 border-[#003399]">
+                <summary class="font-bold text-[#003399] cursor-pointer text-lg outline-none">Why should I choose PhilPro Global?</summary>
+                <p class="mt-4 text-base text-gray-700 leading-relaxed font-semibold">We don't simply provide offshore staff—we become an extension of your team. Our mission is to help U.S. accounting firms grow by providing highly skilled Filipino accounting professionals who deliver quality work, reduce costs, and allow your firm to focus on serving clients and scaling the business.</p>
+            </details>
 
         </div>
     </div>
