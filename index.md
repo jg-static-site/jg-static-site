@@ -73,7 +73,9 @@ title: Home | PhilPro Global
     <div class="max-w-7xl mx-auto">
         <div class="max-w-4xl mb-16 space-y-4" data-reveal="up">
             <!-- H2 is now the dominant title (4xl) -->
-            <h2 class="text-[#003399] text-4xl font-black uppercase tracking-tight">Why PhilPro?</h2>
+           <h2 class="text-4xl font-black uppercase tracking-tight">
+                <span class="text-[#CC0000]">Why</span><span class="text-[#003399]"> PhilPro?</span>
+            </h2>
             <!-- H3 is now the sub-header (2xl) -->
             <h3 class="text-2xl font-black text-[#1A1A1A] uppercase">Your Offshore Accounting Team—Without the Overhead</h3>
             
@@ -185,12 +187,11 @@ title: Home | PhilPro Global
     </div>
 </section>
 
-<!-- SERVICES GRID SECTION -->
-<section class="bg-white py-24 px-8">
+
+  <section class="bg-white py-24 px-8">
     <div class="max-w-7xl mx-auto" data-reveal="up">
         <div class="mb-16 text-center lg:text-left">
             <span class="text-[#003399] text-xl font-bold uppercase tracking-widest block mb-2">Expert Solutions</span>
-            <!-- H2: Standardized Size and Color -->
             <h2 class="text-[#1A1A1A] text-5xl font-black uppercase tracking-tight">Our Outsourcing Services</h2>
             <div class="w-24 h-1.5 bg-[#003399] mt-4 mx-auto lg:mx-0"></div>
         </div>
@@ -198,61 +199,57 @@ title: Home | PhilPro Global
         <!-- 4-Column Image & Text Cards Grid -->
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             
-            <!-- Service Card 1 -->
-            <div class="group cursor-pointer">
+            <!-- Service Card 1: Accounting Services -->
+            <a href="/services/accounting-services" class="group block">
                 <div class="overflow-hidden rounded-md mb-4 aspect-[4/3] border border-gray-200 shadow-sm">
                     <img src="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?q=80&w=600&auto=format&fit=crop" 
                          alt="Accounting Services" 
                          class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
                 </div>
-                <!-- Forced blue via !text-[#003399] and forced hover via group-hover:!text-[#0066CC] -->
-                <h3 class="text-2xl font-black !text-[#1A1A1A] group-hover:!text-[#0066CC] uppercase tracking-wide transition-colors duration-300 flex items-center justify-between">
+                <h3 class="text-2xl font-black text-[#1A1A1A] group-hover:text-[#003399] uppercase tracking-wide transition-colors duration-300 flex items-center justify-between">
                     Accounting Services
                     <span class="text-xl transform transition-transform duration-300 group-hover:translate-x-2"><i class="fas fa-arrow-right fa-solid"></i></span>
                 </h3>
-            </div>
+            </a>
 
-            <!-- Service Card 2 -->
-            <div class="group cursor-pointer">
+            <!-- Service Card 2: Tax Services -->
+            <a href="/services/tax-preparation-services" class="group block">
                 <div class="overflow-hidden rounded-md mb-4 aspect-[4/3] border border-gray-200 shadow-sm">
                     <img src="https://images.unsplash.com/photo-1544377193-33dcf4d68fb5?q=80&w=600&auto=format&fit=crop" 
                          alt="Tax Services" 
                          class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
                 </div>
-                <!-- Forced blue via !text-[#003399] and forced hover via group-hover:!text-[#0066CC] -->
-                <h3 class="text-2xl font-black !text-[#1A1A1A] group-hover:!text-[#0066CC] uppercase tracking-wide transition-colors duration-300 flex items-center justify-between">
+                <h3 class="text-2xl font-black text-[#1A1A1A] group-hover:text-[#003399] uppercase tracking-wide transition-colors duration-300 flex items-center justify-between">
                     Tax Services
                     <span class="text-xl transform transition-transform duration-300 group-hover:translate-x-2"><i class="fas fa-arrow-right fa-solid"></i></span>
                 </h3>
-            </div>
+            </a>
 
-            <!-- Service Card 3 -->
-            <div class="group cursor-pointer">
+            <!-- Service Card 3: CPA Firms -->
+            <a href="/services/audit-services-for-cpas" class="group block">
                 <div class="overflow-hidden rounded-md mb-4 aspect-[4/3] border border-gray-200 shadow-sm">
                     <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=600&auto=format&fit=crop" 
                          alt="CPA Firms Support" 
                          class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
                 </div>
-                <!-- Forced blue via !text-[#003399] and forced hover via group-hover:!text-[#0066CC] -->
-                <h3 class="text-2xl font-black !text-[#1A1A1A] group-hover:!text-[#0066CC] uppercase tracking-wide transition-colors duration-300 flex items-center justify-between">
+                <h3 class="text-2xl font-black text-[#1A1A1A] group-hover:text-[#003399] uppercase tracking-wide transition-colors duration-300 flex items-center justify-between">
                     CPA Firms
                     <span class="text-xl transform transition-transform duration-300 group-hover:translate-x-2"><i class="fas fa-arrow-right fa-solid"></i></span>
                 </h3>
-            </div>
+            </a>
 
-            <!-- Service Card 4 -->
-            <div class="group cursor-pointer">
+            <!-- Service Card 4: Other Offshore Services -->
+            <a href="/services/other-services" class="group block">
                 <div class="overflow-hidden rounded-md mb-4 aspect-[4/3] border border-gray-200 shadow-sm">
                     <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=600&auto=format&fit=crop" 
                          alt="Other Offshore Services" 
                          class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
                 </div>
-                <!-- Forced blue via !text-[#003399] and forced hover via group-hover:!text-[#0066CC] -->
-                <h3 class="text-2xl font-black !text-[#1A1A1A] group-hover:!text-[#0066CC] uppercase tracking-wide transition-colors duration-300 flex items-center justify-between">
-                    Other Offshore Services
+                <h3 class="text-2xl font-black text-[#1A1A1A] group-hover:text-[#003399] uppercase tracking-wide transition-colors duration-300 flex items-center justify-between">
+                    Other Services
                     <span class="text-xl transform transition-transform duration-300 group-hover:translate-x-2"><i class="fas fa-arrow-right fa-solid"></i></span>
                 </h3>
-            </div>
+            </a>
 
         </div>
     </div>
@@ -345,7 +342,7 @@ title: Home | PhilPro Global
                 <i class="fas fa-globe-asia fa-solid mr-2"></i> Strategic Advantage
             </span>
             <h2 class="text-[#003399] text-5xl font-black uppercase leading-tight">
-                Why The Philippines?
+                Why Philippines?
             </h2>
             <div class="w-20 h-1.5 bg-[#003399] mx-auto"></div>
         </div>
@@ -589,7 +586,7 @@ title: Home | PhilPro Global
         <div class="pt-4">
             <a href="/contact" class="bg-transparent border-2 border-white text-base font-bold uppercase tracking-wider px-10 py-4 rounded hover:bg-[#CC0000] hover:border-[#CC0000] transition-colors duration-300 shadow-lg min-w-[180px] text-center inline-block no-underline"
                style="color: #FFFFFF !important; border-color: #FFFFFF !important;">
-                Contact Us Today
+                Contact Us Today!
             </a>
         </div>
         

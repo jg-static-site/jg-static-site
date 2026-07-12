@@ -22,7 +22,7 @@
 
             <details class="bg-white p-6 rounded-lg shadow-sm">
                 <summary class="font-bold text-[#003399] cursor-pointer text-lg outline-none">3. How many employees do you have?</summary>
-                <p class="mt-4 text-base text-gray-700 leading-relaxed">We have a workforce of more than 500 qualified Filipino accountants and finance professionals, enabling us to support both small and large accounting firms and scale quickly based on client demand.</p>
+                <p class="mt-4 text-base text-gray-700 leading-relaxed">We have a workforce of more than 200 qualified Filipino accountants and finance professionals, enabling us to support both small and large accounting firms and scale quickly based on client demand.</p>
             </details>
 
             <details class="bg-white p-6 rounded-lg shadow-sm">

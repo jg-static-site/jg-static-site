@@ -68,8 +68,8 @@ title: About Us | PhilPro Global
 <section class="light-component bg-[#F4F6F9] py-24 px-8">
     <div class="max-w-7xl mx-auto">
         <div class="max-w-4xl space-y-6" data-reveal="up">
-            <h2 class="text-2xl font-black uppercase tracking-wider" style="color: #1A1A1A !important;">Our Core Foundation</h2>
-            <h3 class="text-4xl font-black uppercase" style="color: #1A1A1A !important;">Driving Scalable Growth Through Financial Clarity</h3>
+            <h2 class="text-2xl font-black uppercase tracking-wider text-[#003399]">Our Core Foundation</h2>
+            <h3 class="text-4xl font-black uppercase text-[#003399]">Driving Scalable Growth Through Financial Clarity</h3>
             <p class="text-2xl leading-relaxed pt-2 text-[#333333]">
                 From startups and SMEs to established enterprises and CPA firms, our mission is simple: to empower businesses by providing dependable accounting solutions that improve efficiency, reduce costs, and enable sustainable growth.
             </p>
@@ -82,16 +82,16 @@ title: About Us | PhilPro Global
     <div class="max-w-4xl mx-auto space-y-8">
 
         <div class="space-y-3" data-reveal="up">
-            <span class="text-xl font-bold uppercase tracking-widest block" style="color: #1A1A1A !important;">Our Purpose</span>
-            <h2 class="text-4xl lg:text-5xl font-black uppercase leading-tight" style="color: #1A1A1A !important;">Why We Do What We Do</h2>
-            <div class="w-20 h-1.5 bg-[#1A1A1A] mx-auto"></div>
+            <span class="text-xl font-bold uppercase tracking-widest block text-[#003399]">Our Purpose</span>
+            <h2 class="text-4xl lg:text-5xl font-black uppercase leading-tight text-[#003399]">Why We Do What We Do</h2>
+            <div class="w-20 h-1.5 bg-[#003399] mx-auto"></div>
         </div>
         
         <div class="space-y-6 text-xl leading-relaxed font-normal max-w-3xl mx-auto text-[#333333]" data-reveal="up">
             <p>
                 Managing finances is essential to every successful business, but it can also be time-consuming and resource-intensive. We believe business owners should spend more time growing their companies and less time worrying about bookkeeping, payroll, reconciliations, and financial reporting.
             </p>
-            <h3 class="text-2xl font-black uppercase pt-4" style="color: #1A1A1A !important;">That's where we come in.</h3>
+            <h3 class="text-2xl font-black uppercase pt-4 text-[#003399]">That's where we come in.</h3>
             <p>
                 Our dedicated accounting professionals become an extension of your team, delivering accurate financial information, streamlined processes, and responsive support that help you make informed business decisions with confidence.
             </p>

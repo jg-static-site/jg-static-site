@@ -25,12 +25,13 @@ title: Contact Us | PhilPro Global
         <div class="lg:col-span-1 space-y-8">
             <div class="bg-[#F4F6F9] p-8">
                 <h3 class="text-xl font-bold text-[#003399] uppercase mb-6 tracking-wide">Our Location</h3>
-                <p class="text-gray-600 text-sm leading-relaxed">Legazpi City, Albay<br>Bicol Region, Philippines</p>
+                <p class="text-gray-600 text-sm leading-relaxed">LG05 & LG08 Cityland Tower 9 Condominium, Dela Rosa Street, Pio Del Pilar, Makati City, Philippines</p>
                 <div class="mt-8 space-y-4">
                     <p class="font-bold text-[#003399] text-xs uppercase tracking-widest">Email</p>
-                    <p class="text-sm text-gray-700">hello@philpro.com</p>
+                    <a href="mailto:info@philproglobal.com" class="hover:text-red transition-colors flex items-center gap-2"><i class="fas fa-envelope fa-solid text-[#CC0000]"></i> info@philproglobal.com</a>
                     <p class="font-bold text-[#003399] text-xs uppercase tracking-widest mt-6">Phone</p>
-                    <p class="text-sm text-gray-700">+63 9XX XXX XXXX</p>
+                    <p class="text-sm text-gray-700">+63 917 108 5538</p>
+
                 </div>
             </div>
         </div>
@@ -96,11 +97,11 @@ title: Contact Us | PhilPro Global
         <div class="grid md:grid-cols-2 gap-8">
             <blockquote class="bg-white p-8 rounded shadow-sm italic text-gray-700">
                 "PhilPro transformed our accounting efficiency. The integration was seamless."
-                <footer class="mt-4 font-bold text-[#003399] not-italic">— CFO, Global Tech Firm</footer>
+           
             </blockquote>
             <blockquote class="bg-white p-8 rounded shadow-sm italic text-gray-700">
-                "The most reliable offshore partner we have ever worked with."
-                <footer class="mt-4 font-bold text-[#003399] not-italic">— Director, Accounting Services</footer>
+                "PhilPro quickly became an extension of our accounting team. Their professionalism, communication, and quality of work exceeded our expectations."
+                
             </blockquote>
         </div>
     </div>
