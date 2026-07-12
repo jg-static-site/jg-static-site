@@ -35,21 +35,59 @@ title: Contact Us | PhilPro Global
             </div>
         </div>
 
-        <!-- Form Area -->
+      <!-- Form Area -->
+<!-- Form Area -->
         <div class="lg:col-span-2">
             <h2 class="text-2xl font-black text-[#1A1A1A] uppercase mb-8 tracking-tight">Send Us A Message</h2>
-            <form class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <input type="text" placeholder="First Name" class="p-3 border border-gray-200 w-full outline-none focus:border-[#003399]">
-                <input type="text" placeholder="Last Name" class="p-3 border border-gray-200 w-full outline-none focus:border-[#003399]">
-                <input type="email" placeholder="Business Email" class="col-span-2 p-3 border border-gray-200 w-full outline-none focus:border-[#003399]">
-                <input type="tel" placeholder="Contact Number" class="col-span-2 p-3 border border-gray-200 w-full outline-none focus:border-[#003399]">
-                <select class="col-span-2 p-3 border border-gray-200 w-full bg-white outline-none focus:border-[#003399]">
-                    <option>Nature of Inquiry</option>
-                </select>
-                <textarea rows="4" placeholder="Additional Details" class="col-span-2 p-3 border border-gray-200 w-full outline-none focus:border-[#003399]"></textarea>
-                <button class="col-span-2 bg-[#003399] text-white py-4 font-bold uppercase tracking-widest hover:bg-[#002266] transition">Submit Inquiry</button>
+            <form id="philproForm" class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <input type="text" name="entry.2086976944" placeholder="First Name" required class="p-3 border border-gray-200 w-full outline-none focus:border-[#003399]">
+                <input type="text" name="entry.557839567" placeholder="Last Name" required class="p-3 border border-gray-200 w-full outline-none focus:border-[#003399]">
+                <input type="email" name="entry.1388243374" placeholder="Business Email" required class="col-span-2 p-3 border border-gray-200 w-full outline-none focus:border-[#003399]">
+                <input type="tel" name="entry.1255012078" placeholder="Contact Number" required class="col-span-2 p-3 border border-gray-200 w-full outline-none focus:border-[#003399]">
+        
+                <!-- Subject Input -->
+                <input type="text" name="entry.154717761" placeholder="Subject" required class="col-span-2 p-3 border border-gray-200 w-full outline-none focus:border-[#003399]">
+                
+                <textarea name="entry.1050020768" rows="4" placeholder="Your Message" required class="col-span-2 p-3 border border-gray-200 w-full outline-none focus:border-[#003399]"></textarea>
+                
+                <button type="submit" class="col-span-2 bg-[#003399] text-white py-4 font-bold uppercase tracking-widest hover:bg-[#002266] transition">Submit Inquiry</button>
             </form>
+        
+            <!-- Updated Success Message with Button -->
+            <div id="successMsg" class="hidden mt-4 p-8 bg-green-100 border-2 border-green-200 rounded text-center">
+                <p class="text-green-800 font-bold mb-6">Thank you! Your message has been sent.</p>
+                <button id="resetFormBtn" class="bg-[#003399] text-white px-8 py-3 font-bold uppercase tracking-widest hover:bg-[#002266] transition">
+                    Submit Another Inquiry
+                </button>
+            </div>
         </div>
+        
+        <script>
+            const form = document.getElementById('philproForm');
+            const successMsg = document.getElementById('successMsg');
+            const resetFormBtn = document.getElementById('resetFormBtn');
+        
+            form.addEventListener('submit', function(e) {
+                e.preventDefault();
+                const data = new FormData(form);
+                
+                fetch("https://docs.google.com/forms/d/e/1FAIpQLSct9KsYK81oGDd5tQ_C2MDoBJGKnk1ncGJAU6I4oxaHPvGGCQ/formResponse", {
+                    method: "POST",
+                    body: data,
+                    mode: "no-cors"
+                }).then(() => {
+                    form.reset();
+                    form.style.display = 'none';
+                    successMsg.classList.remove('hidden');
+                });
+            });
+        
+            // Reset visibility when clicking the new button
+            resetFormBtn.addEventListener('click', function() {
+                successMsg.classList.add('hidden');
+                form.style.display = 'grid';
+            });
+        </script>
     </div>
 </section>
 <section class="py-20 bg-[#F4F6F9] px-8">
