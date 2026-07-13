@@ -98,15 +98,15 @@ title: Offshore Services for CPA Firms | PhilPro Global
 
         <!-- Tab Navigation -->
         <div class="flex flex-wrap justify-center gap-2 mb-8" id="tabs">
-            <button onclick="openTab(event, 'Payables')" class="tab-btn px-6 py-2 bg-[#003399] text-white rounded font-bold transition-colors duration-200">Payables</button>
-            <button onclick="openTab(event, 'Receivables')" class="tab-btn px-6 py-2 bg-gray-200 text-gray-700 rounded font-bold transition-colors duration-200 hover:bg-gray-300">Receivables</button>
-            <button onclick="openTab(event, 'Inventory')" class="tab-btn px-6 py-2 bg-gray-200 text-gray-700 rounded font-bold transition-colors duration-200 hover:bg-gray-300">Inventory</button>
-            <button onclick="openTab(event, 'Payroll')" class="tab-btn px-6 py-2 bg-gray-200 text-gray-700 rounded font-bold transition-colors duration-200 hover:bg-gray-300">Payroll</button>
-            <button onclick="openTab(event, 'Reporting')" class="tab-btn px-6 py-2 bg-gray-200 text-gray-700 rounded font-bold transition-colors duration-200 hover:bg-gray-300">Reporting</button>
-            <button onclick="openTab(event, 'FPA')" class="tab-btn px-6 py-2 bg-gray-200 text-gray-700 rounded font-bold transition-colors duration-200 hover:bg-gray-300">FP&A</button>
-            <button onclick="openTab(event, 'Automation')" class="tab-btn px-6 py-2 bg-gray-200 text-gray-700 rounded font-bold transition-colors duration-200 hover:bg-gray-300">Automation</button>
-            <button onclick="openTab(event, 'HR')" class="tab-btn px-6 py-2 bg-gray-200 text-gray-700 rounded font-bold transition-colors duration-200 hover:bg-gray-300">HR Management</button>
-            <button onclick="openTab(event, 'Audit')" class="tab-btn px-6 py-2 bg-gray-200 text-gray-700 rounded font-bold transition-colors duration-200 hover:bg-gray-300">Audit Support</button>
+            <button onclick="openTab(event, 'Payables')" class="tab-btn px-6 py-2 bg-[#003399] text-white rounded font-bold transition-colors duration-0">Payables</button>
+            <button onclick="openTab(event, 'Receivables')" class="tab-btn px-6 py-2 bg-gray-200 text-gray-700 rounded font-bold transition-colors duration-0 hover:bg-gray-300">Receivables</button>
+            <button onclick="openTab(event, 'Inventory')" class="tab-btn px-6 py-2 bg-gray-200 text-gray-700 rounded font-bold transition-colors duration-0 hover:bg-gray-300">Inventory</button>
+            <button onclick="openTab(event, 'Payroll')" class="tab-btn px-6 py-2 bg-gray-200 text-gray-700 rounded font-bold transition-colors duration-0 hover:bg-gray-300">Payroll</button>
+            <button onclick="openTab(event, 'Reporting')" class="tab-btn px-6 py-2 bg-gray-200 text-gray-700 rounded font-bold transition-colors duration-0 hover:bg-gray-300">Reporting</button>
+            <button onclick="openTab(event, 'FPA')" class="tab-btn px-6 py-2 bg-gray-200 text-gray-700 rounded font-bold transition-colors duration-0 hover:bg-gray-300">FP&A</button>
+            <button onclick="openTab(event, 'Automation')" class="tab-btn px-6 py-2 bg-gray-200 text-gray-700 rounded font-bold transition-colors duration-0 hover:bg-gray-300">Automation</button>
+            <button onclick="openTab(event, 'HR')" class="tab-btn px-6 py-2 bg-gray-200 text-gray-700 rounded font-bold transition-colors duration-0 hover:bg-gray-300">HR Management</button>
+            <button onclick="openTab(event, 'Audit')" class="tab-btn px-6 py-2 bg-gray-200 text-gray-700 rounded font-bold transition-colors duration-0 hover:bg-gray-300">Audit Support</button>
         </div>
 
         <!-- Tab Content -->
@@ -238,28 +238,27 @@ title: Offshore Services for CPA Firms | PhilPro Global
     </div>
 </section>
 
-<style>
-/* Disable hover effects on touch devices to prevent "stuck" gray color */
-@media (hover: hover) {
-    .tab-btn:hover {
-        background-color: #d1d5db; /* gray-300 */
-    }
-}
-</style>
-
 <script>
 function openTab(evt, tabName) {
-    var i, tabcontent, tablinks;
-    tabcontent = document.getElementsByClassName("tab-pane");
-    for (i = 0; i < tabcontent.length; i++) { tabcontent[i].style.display = "none"; }
-    tablinks = document.getElementsByClassName("tab-btn");
-    for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].classList.remove("bg-[#003399]", "text-white");
-        tablinks[i].classList.add("bg-gray-200", "text-gray-700");
+    // Hide all tab panes
+    const tabcontent = document.getElementsByClassName("tab-pane");
+    for (let i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
     }
+
+    // Reset all buttons to inactive gray
+    const tablinks = document.getElementsByClassName("tab-btn");
+    for (let i = 0; i < tablinks.length; i++) {
+        tablinks[i].style.backgroundColor = "#e5e7eb"; // gray-200
+        tablinks[i].style.color = "#374151";           // gray-700
+    }
+
+    // Show selected pane
     document.getElementById(tabName).style.display = "block";
-    evt.currentTarget.classList.remove("bg-gray-200", "text-gray-700");
-    evt.currentTarget.classList.add("bg-[#003399]", "text-white");
+
+    // Force active button to blue
+    evt.currentTarget.style.backgroundColor = "#003399";
+    evt.currentTarget.style.color = "#ffffff";
 }
 </script>
 
