@@ -54,7 +54,7 @@ title: Home | PhilPro Global
 
             <!-- Action Buttons -->
             <div class="flex flex-wrap gap-4 pt-4">
-                <a href="/contact" class="text-base font-bold uppercase tracking-wider px-10 py-4 rounded hover:bg-white hover:text-[#051329] transition-colors duration-300 shadow-lg min-w-[180px] text-center"
+                <a href="/request-for-quotation" class="text-base font-bold uppercase tracking-wider px-10 py-4 rounded hover:bg-white hover:text-[#051329] transition-colors duration-300 shadow-lg min-w-[180px] text-center"
                    style="color: #FFFFFF !important; background-color: #CC0000 !important;">
                     Get A Quote
                 </a>
@@ -226,7 +226,7 @@ title: Home | PhilPro Global
             </a>
 
             <!-- Service Card 3: CPA Firms -->
-            <a href="/services/audit-services-for-cpas" class="group block">
+            <a href="/cpa-firm-services" class="group block">
                 <div class="overflow-hidden rounded-md mb-4 aspect-[4/3] border border-gray-200 shadow-sm">
                     <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=600&auto=format&fit=crop" 
                          alt="CPA Firms Support" 
@@ -316,7 +316,7 @@ title: Home | PhilPro Global
             <!-- Item 8 -->
             <div class="flex items-center gap-3 py-2 border-b border-gray-50">
                 <span class="w-1.5 h-1.5 bg-gray-400 rounded-full"></span>
-                <span class="text-base font-medium text-gray-800">Startups</span>
+                <span class="text-base font-medium text-gray-800">Start-ups</span>
             </div>
 
             <!-- Item 9 -->

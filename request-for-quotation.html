@@ -1,9 +1,21 @@
-<section class="py-16 bg-white">
-    <div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-12">
-        <div class="prose max-w-none">
-            {{ content }}
-        </div>
+---
+layout: page
+title: Request a Quotation | PhilPro Global
+---
+<!-- Compact Hero Banner -->
+<section class="relative py-16 flex items-center overflow-hidden font-sans"
+         style="background-image: url('https://images.unsplash.com/photo-1554224154-26032ffc0d07?q=80&w=2000'); background-size: cover; background-position: center;">
+    <div class="absolute inset-0 z-10" style="background: linear-gradient(90deg, rgba(0, 26, 77, 0.95) 0%, rgba(0, 51, 153, 0.7) 60%, rgba(0, 51, 153, 0.3) 100%);"></div>
 
+    <div class="relative z-20 max-w-7xl mx-auto w-full px-8">
+        <h1 class="text-4xl lg:text-5xl font-black uppercase tracking-widest text-white mb-2">Request Quotation</h1>
+        <p class="text-sm uppercase tracking-[0.2em] opacity-90 font-medium text-white">Select a service to get started with PhilPro Global</p>
+    </div>
+</section>
+
+<!-- Quotation Form Section -->
+<section class="py-16 px-8 bg-white font-sans">
+    <div class="max-w-2xl mx-auto">
         <div class="bg-[#FDFBF7] p-8 border border-gray-100 rounded-lg shadow-sm" id="bookfreecons">
             <h3 class="text-2xl font-black text-[#1A1A1A] uppercase mb-6">Request for quotation</h3>
 
@@ -14,8 +26,19 @@
                     <input type="text" name="entry.2122662188" placeholder="Last Name *" required class="w-full p-3 border border-gray-200 rounded outline-none focus:border-[#003399]">
                 </div>
 
-                <!-- Service Title Field -->
-                <input type="text" name="entry.1141744896" value="{{ page.hero_title }}" readonly class="w-full p-3 border border-gray-200 rounded outline-none bg-gray-50 cursor-not-allowed">
+                <!-- Service Selection Dropdown -->
+                <select name="entry.1141744896" required class="w-full p-3 border border-gray-200 rounded outline-none focus:border-[#003399] bg-white text-gray-700">
+                    <option value="" disabled selected>Select a Service *</option>
+                    <option value="Accounting Services">Accounting Services</option>
+                    <option value="Accounts Payable Services">Accounts Payable Services</option>
+                    <option value="Accounts Receivable Services">Accounts Receivable Services</option>
+                    <option value="Outsourced Internal Audit Services">Outsourced Internal Audit Services</option>
+                    <option value="Outsourced Financial Services">Outsourced Financial Services</option>
+                    <option value="Invoice Processing Services">Invoice Processing Services</option>
+                    <option value="Payroll Processing Services">Payroll Processing Services</option>
+                    <option value="Tax Preparation Services ">Tax Preparation Services</option>
+                    <option value="Other Professional Services">Other Professional Services</option>
+                </select>
 
                 <input type="email" name="entry.214604199" placeholder="Your Email Address *" required class="w-full p-3 border border-gray-200 rounded outline-none focus:border-[#003399]">
                 <input type="tel" name="entry.1940082649" placeholder="Mobile Phone *" required class="w-full p-3 border border-gray-200 rounded outline-none focus:border-[#003399]">
@@ -28,7 +51,7 @@
             <div id="successMsg" class="hidden mt-4 p-8 bg-green-100 border-2 border-green-200 rounded text-center">
                 <p class="text-green-800 font-bold mb-6">Thank you! Your request has been sent.</p>
                 <button id="resetFormBtn" class="bg-[#003399] text-white px-8 py-3 font-bold uppercase tracking-widest hover:bg-[#002266] transition">
-                    Submit Another Inquiry
+                    Submit Another Request
                 </button>
             </div>
         </div>
@@ -61,16 +84,6 @@
         form.style.display = 'block';
     });
 </script>
-
-{% if page.additional_content %}
-<section class="bg-white py-24 px-6">
-    <div class="max-w-7xl mx-auto">
-        <div class="prose max-w-none text-center">
-            {{ page.additional_content }}
-        </div>
-    </div>
-</section>
-{% endif %}
 
 <section class="bg-[#F4F6F9] py-24 px-8">
     <div class="max-w-7xl mx-auto">
