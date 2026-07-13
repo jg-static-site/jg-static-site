@@ -19,27 +19,12 @@ title: Contact Us | PhilPro Global
 
 <!-- Contact Content -->
 <section class="py-16 px-8 bg-white font-sans">
-    <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-12">
+    <!-- Centered Container for the Form -->
+    <div class="max-w-4xl mx-auto">
 
-        <!-- Sidebar -->
-        <div class="lg:col-span-1 space-y-8">
-            <div class="bg-[#F4F6F9] p-8">
-                <h3 class="text-xl font-bold text-[#003399] uppercase mb-6 tracking-wide">Our Location</h3>
-                <p class="text-gray-600 text-sm leading-relaxed">LG05 & LG08 Cityland Tower 9 Condominium, Dela Rosa Street, Pio Del Pilar, Makati City, Philippines</p>
-                <div class="mt-8 space-y-4">
-                    <p class="font-bold text-[#003399] text-xs uppercase tracking-widest">Email</p>
-                    <a href="mailto:info@philproglobal.com" class="hover:text-red transition-colors flex items-center gap-2"><i class="fas fa-envelope fa-solid text-[#CC0000]"></i> info@philproglobal.com</a>
-                    <p class="font-bold text-[#003399] text-xs uppercase tracking-widest mt-6">Phone</p>
-                    <p class="text-sm text-gray-700">+63 917 108 5538</p>
-
-                </div>
-            </div>
-        </div>
-
-      <!-- Form Area -->
-<!-- Form Area -->
-        <div class="lg:col-span-2">
-            <h2 class="text-2xl font-black text-[#1A1A1A] uppercase mb-8 tracking-tight">Send Us A Message</h2>
+        <!-- Form Area -->
+        <div>
+            <h2 class="text-2xl font-black text-[#1A1A1A] uppercase mb-8 tracking-tight text-center">Send Us A Message</h2>
             <form id="philproForm" class="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <input type="text" name="entry.2086976944" placeholder="First Name" required class="p-3 border border-gray-200 w-full outline-none focus:border-[#003399]">
                 <input type="text" name="entry.557839567" placeholder="Last Name" required class="p-3 border border-gray-200 w-full outline-none focus:border-[#003399]">
@@ -54,7 +39,7 @@ title: Contact Us | PhilPro Global
                 <button type="submit" class="col-span-2 bg-[#003399] text-white py-4 font-bold uppercase tracking-widest hover:bg-[#002266] transition">Submit Inquiry</button>
             </form>
         
-            <!-- Updated Success Message with Button -->
+            <!-- Success Message -->
             <div id="successMsg" class="hidden mt-4 p-8 bg-green-100 border-2 border-green-200 rounded text-center">
                 <p class="text-green-800 font-bold mb-6">Thank you! Your message has been sent.</p>
                 <button id="resetFormBtn" class="bg-[#003399] text-white px-8 py-3 font-bold uppercase tracking-widest hover:bg-[#002266] transition">
@@ -91,17 +76,16 @@ title: Contact Us | PhilPro Global
         </script>
     </div>
 </section>
+
 <section class="py-20 bg-[#F4F6F9] px-8">
     <div class="max-w-5xl mx-auto text-center">
         <h2 class="text-3xl font-black text-[#003399] uppercase mb-12">Client Testimonials</h2>
         <div class="grid md:grid-cols-2 gap-8">
             <blockquote class="bg-white p-8 rounded shadow-sm italic text-gray-700">
                 "PhilPro transformed our accounting efficiency. The integration was seamless."
-           
             </blockquote>
             <blockquote class="bg-white p-8 rounded shadow-sm italic text-gray-700">
                 "PhilPro quickly became an extension of our accounting team. Their professionalism, communication, and quality of work exceeded our expectations."
-                
             </blockquote>
         </div>
     </div>
