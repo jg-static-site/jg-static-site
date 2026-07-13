@@ -5,20 +5,62 @@
         </div>
 
         <div class="bg-[#FDFBF7] p-8 border border-gray-100 rounded-lg shadow-sm" id="bookfreecons">
-            <h3 class="text-2xl font-black text-[#1A1A1A] uppercase mb-6">Book a Free Consultation</h3>
-            <form action="#" method="POST" class="space-y-4">
+            <h3 class="text-2xl font-black text-[#1A1A1A] uppercase mb-6">Request for quotation</h3>
+
+            <!-- Functional Form -->
+            <form id="serviceForm" class="space-y-4">
                 <div class="grid grid-cols-2 gap-4">
-                    <input type="text" placeholder="First Name *" class="w-full p-3 border border-gray-200 rounded outline-none">
-                    <input type="text" placeholder="Last Name *" class="w-full p-3 border border-gray-200 rounded outline-none">
+                    <input type="text" name="entry.353083429" placeholder="First Name *" required class="w-full p-3 border border-gray-200 rounded outline-none focus:border-[#003399]">
+                    <input type="text" name="entry.2122662188" placeholder="Last Name *" required class="w-full p-3 border border-gray-200 rounded outline-none focus:border-[#003399]">
                 </div>
-                <input type="email" placeholder="Your Email Address *" class="w-full p-3 border border-gray-200 rounded outline-none">
-                <input type="tel" placeholder="Mobile Phone *" class="w-full p-3 border border-gray-200 rounded outline-none">
-                <textarea placeholder="Your Message" rows="4" class="w-full p-3 border border-gray-200 rounded outline-none"></textarea>
+
+                <!-- Service Title Field -->
+                <input type="text" name="entry.1141744896" value="{{ page.hero_title }}" readonly class="w-full p-3 border border-gray-200 rounded outline-none bg-gray-50 cursor-not-allowed">
+
+                <input type="email" name="entry.214604199" placeholder="Your Email Address *" required class="w-full p-3 border border-gray-200 rounded outline-none focus:border-[#003399]">
+                <input type="tel" name="entry.1940082649" placeholder="Mobile Phone *" required class="w-full p-3 border border-gray-200 rounded outline-none focus:border-[#003399]">
+                <textarea name="entry.1914344619" placeholder="Your Message" rows="4" required class="w-full p-3 border border-gray-200 rounded outline-none focus:border-[#003399]"></textarea>
+
                 <button type="submit" class="w-full bg-[#CC0000] text-white font-bold py-4 rounded hover:bg-red-700 transition-all uppercase">Submit Request</button>
             </form>
+
+            <!-- Success Message -->
+            <div id="successMsg" class="hidden mt-4 p-8 bg-green-100 border-2 border-green-200 rounded text-center">
+                <p class="text-green-800 font-bold mb-6">Thank you! Your request has been sent.</p>
+                <button id="resetFormBtn" class="bg-[#003399] text-white px-8 py-3 font-bold uppercase tracking-widest hover:bg-[#002266] transition">
+                    Submit Another Inquiry
+                </button>
+            </div>
         </div>
     </div>
 </section>
+
+<script>
+    const form = document.getElementById('serviceForm');
+    const successMsg = document.getElementById('successMsg');
+    const resetFormBtn = document.getElementById('resetFormBtn');
+
+    form.addEventListener('submit', function(e) {
+        e.preventDefault();
+        const data = new FormData(form);
+
+        // Ensure this URL matches your new form's submission endpoint
+       fetch("https://docs.google.com/forms/d/e/1FAIpQLSeAGNsjI1orqehuqmRK3KNc_jATIuii55M0dYt8SsCkTaemRQ/formResponse", {
+            method: "POST",
+            body: data,
+            mode: "no-cors"
+        }).then(() => {
+            form.reset();
+            form.style.display = 'none';
+            successMsg.classList.remove('hidden');
+        });
+    });
+
+    resetFormBtn.addEventListener('click', function() {
+        successMsg.classList.add('hidden');
+        form.style.display = 'block';
+    });
+</script>
 
 {% if page.additional_content %}
 <section class="bg-white py-24 px-6">
