@@ -176,7 +176,7 @@ title: About Us | PhilPro Global
                 </div>
             </a>
 
-            <a href="/services/outsourcing-audit-services-for-cpas-and-accounting-firms" class="bg-white p-8 rounded-lg shadow-md border-l-8 border-[#003399] flex items-center justify-between group hover:shadow-xl transition-all">
+            <a href="/services/audit-services-for-cpas" class="bg-white p-8 rounded-lg shadow-md border-l-8 border-[#003399] flex items-center justify-between group hover:shadow-xl transition-all">
                 <h3 class="text-2xl font-bold text-[#1E1B4B] group-hover:text-[#CC0000] transition-colors">OutsourcingAudit Services for CPAs and Accounting Firms</h3>
                 <div class="text-[#003399] group-hover:text-[#CC0000] text-3xl flex items-center gap-4 transition-colors">
                     <i class="fas fa-shield-alt"></i>

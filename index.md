@@ -468,37 +468,72 @@ title: Home | PhilPro Global
             <h3 class="text-[#CC0000] text-lg font-bold uppercase tracking-[0.2em]">Driving Results with The Best Technology</h3>
         </div>
 
-     <!-- Slider Container with uniform box sizes -->
-        <div class="swiper expertiseSlider w-full">
-            <div class="swiper-wrapper">
-                <!-- Slide: Uniform box sizes using h-24 and w-full -->
-                <div class="swiper-slide border border-gray-100 rounded-xl flex items-center justify-center p-3 h-24">
-                    <img src="/img/netsuite.jpeg" alt="NetSuite" class="h-full w-full object-contain">
-                </div>
-                <div class="swiper-slide border border-gray-100 rounded-xl flex items-center justify-center p-3 h-24">
-                    <img src="/img/xero.jpeg" alt="Xero" class="h-full w-full object-contain">
-                </div>
-                <div class="swiper-slide border border-gray-100 rounded-xl flex items-center justify-center p-3 h-24">
-                    <img src="/img/quickbooks.jpeg" alt="QuickBooks" class="h-full w-full object-contain">
-                </div>
-                <div class="swiper-slide border border-gray-100 rounded-xl flex items-center justify-center p-3 h-24">
-                    <img src="/img/intuitproconnect.jpeg" alt="ProConnect" class="h-full w-full object-contain">
-                </div>
+    <div class="swiper expertiseSlider w-full h-48">
+        <div class="swiper-wrapper">
+            <!-- Slide structure: All set to h-48 (192px) -->
+            <div class="swiper-slide h-48 w-full flex items-center justify-center p-6 border border-gray-100 rounded-xl">
+                <img src="/img/netsuite.jpeg" alt="NetSuite" class="block h-full w-auto object-contain">
+            </div>
+            <div class="swiper-slide h-48 w-full flex items-center justify-center p-6 border border-gray-100 rounded-xl">
+                <img src="/img/xero.jpeg" alt="Xero" class="block h-full w-auto object-contain">
+            </div>
+            <div class="swiper-slide h-48 w-full flex items-center justify-center p-6 border border-gray-100 rounded-xl">
+                <img src="/img/quickbooks.jpeg" alt="QuickBooks" class="block h-full w-auto object-contain">
+            </div>
+            <div class="swiper-slide h-48 w-full flex items-center justify-center p-6 border border-gray-100 rounded-xl">
+                <img src="/img/intuitproconnect.jpeg" alt="ProConnect" class="block h-full w-auto object-contain">
+            </div>
+            <div class="swiper-slide h-48 w-full flex items-center justify-center p-6 border border-gray-100 rounded-xl">
+                <img src="/img/adp.png" alt="ADP" class="block h-full w-auto object-contain">
+            </div>
+            <div class="swiper-slide h-48 w-full flex items-center justify-center p-6 border border-gray-100 rounded-xl">
+                <img src="/img/bill-logo.png" alt="Bill" class="block h-full w-auto object-contain">
+            </div>
+            <div class="swiper-slide h-48 w-full flex items-center justify-center p-6 border border-gray-100 rounded-xl">
+                <img src="/img/gusto.png" alt="Gusto" class="block h-full w-auto object-contain">
+            </div>
+            <div class="swiper-slide h-48 w-full flex items-center justify-center p-6 border border-gray-100 rounded-xl">
+                <img src="/img/quickbooks_online.png" alt="QuickBooks Online" class="block h-full w-auto object-contain">
             </div>
         </div>
+    </div>
+    
+    <style>
+        /* Force swiper container and slides to 12rem (192px) */
+        .expertiseSlider, .expertiseSlider .swiper-wrapper, .expertiseSlider .swiper-slide {
+            height: 192px !important;
+        }
         
-        <script>
-          document.addEventListener("DOMContentLoaded", function() {
-            new Swiper('.expertiseSlider', {
-              loop: true,
-              slidesPerView: 3, 
-              spaceBetween: 10,
-              autoplay: { 
-                delay: 2000, 
-                disableOnInteraction: false 
-              }
-            });
-          });
+        .expertiseSlider .swiper-slide {
+            display: flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+        }
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+        new Swiper('.expertiseSlider', {
+        loop: true,
+        spaceBetween: 10,
+        autoplay: {
+        delay: 2000,
+        disableOnInteraction: false
+        },
+        // Responsive breakpoints
+        breakpoints: {
+        // When window width is >= 320px (mobile)
+        320: {
+        slidesPerView: 2,
+        spaceBetween: 10
+        },
+        // When window width is >= 768px (tablet/desktop)
+        768: {
+        slidesPerView: 3,
+        spaceBetween: 20
+        }
+        }
+        });
+        });
         </script>
     </div>
 </section>
