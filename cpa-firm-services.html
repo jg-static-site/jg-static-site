@@ -98,15 +98,15 @@ title: Offshore Services for CPA Firms | PhilPro Global
 
         <!-- Tab Navigation -->
         <div class="flex flex-wrap justify-center gap-2 mb-8" id="tabs">
-            <button onclick="openTab(event, 'Payables')" class="tab-btn px-6 py-2 bg-[#003399] text-white rounded font-bold">Payables</button>
-            <button onclick="openTab(event, 'Receivables')" class="tab-btn px-6 py-2 bg-gray-200 text-gray-700 rounded font-bold hover:bg-gray-300">Receivables</button>
-            <button onclick="openTab(event, 'Inventory')" class="tab-btn px-6 py-2 bg-gray-200 text-gray-700 rounded font-bold hover:bg-gray-300">Inventory</button>
-            <button onclick="openTab(event, 'Payroll')" class="tab-btn px-6 py-2 bg-gray-200 text-gray-700 rounded font-bold hover:bg-gray-300">Payroll</button>
-            <button onclick="openTab(event, 'Reporting')" class="tab-btn px-6 py-2 bg-gray-200 text-gray-700 rounded font-bold hover:bg-gray-300">Reporting</button>
-            <button onclick="openTab(event, 'FPA')" class="tab-btn px-6 py-2 bg-gray-200 text-gray-700 rounded font-bold hover:bg-gray-300">FP&A</button>
-            <button onclick="openTab(event, 'Automation')" class="tab-btn px-6 py-2 bg-gray-200 text-gray-700 rounded font-bold hover:bg-gray-300">Automation</button>
-            <button onclick="openTab(event, 'HR')" class="tab-btn px-6 py-2 bg-gray-200 text-gray-700 rounded font-bold hover:bg-gray-300">HR Management</button>
-            <button onclick="openTab(event, 'Audit')" class="tab-btn px-6 py-2 bg-gray-200 text-gray-700 rounded font-bold hover:bg-gray-300">Audit Support</button>
+            <button onclick="openTab(event, 'Payables')" class="tab-btn px-6 py-2 bg-[#003399] text-white rounded font-bold transition-colors duration-200">Payables</button>
+            <button onclick="openTab(event, 'Receivables')" class="tab-btn px-6 py-2 bg-gray-200 text-gray-700 rounded font-bold transition-colors duration-200 hover:bg-gray-300">Receivables</button>
+            <button onclick="openTab(event, 'Inventory')" class="tab-btn px-6 py-2 bg-gray-200 text-gray-700 rounded font-bold transition-colors duration-200 hover:bg-gray-300">Inventory</button>
+            <button onclick="openTab(event, 'Payroll')" class="tab-btn px-6 py-2 bg-gray-200 text-gray-700 rounded font-bold transition-colors duration-200 hover:bg-gray-300">Payroll</button>
+            <button onclick="openTab(event, 'Reporting')" class="tab-btn px-6 py-2 bg-gray-200 text-gray-700 rounded font-bold transition-colors duration-200 hover:bg-gray-300">Reporting</button>
+            <button onclick="openTab(event, 'FPA')" class="tab-btn px-6 py-2 bg-gray-200 text-gray-700 rounded font-bold transition-colors duration-200 hover:bg-gray-300">FP&A</button>
+            <button onclick="openTab(event, 'Automation')" class="tab-btn px-6 py-2 bg-gray-200 text-gray-700 rounded font-bold transition-colors duration-200 hover:bg-gray-300">Automation</button>
+            <button onclick="openTab(event, 'HR')" class="tab-btn px-6 py-2 bg-gray-200 text-gray-700 rounded font-bold transition-colors duration-200 hover:bg-gray-300">HR Management</button>
+            <button onclick="openTab(event, 'Audit')" class="tab-btn px-6 py-2 bg-gray-200 text-gray-700 rounded font-bold transition-colors duration-200 hover:bg-gray-300">Audit Support</button>
         </div>
 
         <!-- Tab Content -->
@@ -237,6 +237,15 @@ title: Offshore Services for CPA Firms | PhilPro Global
         </div>
     </div>
 </section>
+
+<style>
+/* Disable hover effects on touch devices to prevent "stuck" gray color */
+@media (hover: hover) {
+    .tab-btn:hover {
+        background-color: #d1d5db; /* gray-300 */
+    }
+}
+</style>
 
 <script>
 function openTab(evt, tabName) {
