@@ -495,6 +495,12 @@ title: Home | PhilPro Global
             <div class="swiper-slide h-48 w-full flex items-center justify-center p-6 border border-gray-100 rounded-xl">
                 <img src="/img/quickbooks_online.png" alt="QuickBooks Online" class="block h-full w-auto object-contain">
             </div>
+            <div class="swiper-slide h-48 w-full flex items-center justify-center p-6 border border-gray-100 rounded-xl">
+                    <img src="/img/sage.webp" alt="QuickBooks Online" class="block h-full w-auto object-contain">
+            </div>
+            <div class="swiper-slide h-48 w-full flex items-center justify-center p-6 border border-gray-100 rounded-xl">
+                    <img src="/img/excel.png" alt="Excel" class="block h-full w-auto object-contain">
+            </div>
         </div>
     </div>
     
